@@ -1,5 +1,9 @@
 # Printing the parts
 
+<!-- documentation-languages -->
+[English](i18n/en/docs/printing.md) · [Русский](i18n/ru/docs/printing.md) · [Español](i18n/es/docs/printing.md) · [Français](i18n/fr/docs/printing.md) · [Deutsch](i18n/de/docs/printing.md) · [Português (Brasil)](i18n/pt-BR/docs/printing.md) · [简体中文](i18n/zh-CN/docs/printing.md) · [日本語](i18n/ja/docs/printing.md) · [हिन्दी](i18n/hi/docs/printing.md) · [العربية](i18n/ar/docs/printing.md)
+<!-- /documentation-languages -->
+
 Every printed part of the SO-ARM 102 kit is in [`../models/stl/`](../models/stl/).
 The editable CAD sources with the same names are in [`../models/step/`](../models/step/).
 

@@ -1,5 +1,9 @@
 # Assembly guide
 
+<!-- documentation-languages -->
+[English](i18n/en/docs/assembly-guide.md) · [Русский](i18n/ru/docs/assembly-guide.md) · [Español](i18n/es/docs/assembly-guide.md) · [Français](i18n/fr/docs/assembly-guide.md) · [Deutsch](i18n/de/docs/assembly-guide.md) · [Português (Brasil)](i18n/pt-BR/docs/assembly-guide.md) · [简体中文](i18n/zh-CN/docs/assembly-guide.md) · [日本語](i18n/ja/docs/assembly-guide.md) · [हिन्दी](i18n/hi/docs/assembly-guide.md) · [العربية](i18n/ar/docs/assembly-guide.md)
+<!-- /documentation-languages -->
+
 This guide follows the printed booklet
 [SO-ARM102_assembly_A5_v0.6.pdf](SO-ARM102_assembly_A5_v0.6.pdf) page by page.
 Print the booklet on A5 landscape if you prefer paper.
@@ -15,6 +19,14 @@ Before you start:
 ![Tools and voltage warning](../assets/images/assembly/tools-and-voltage.jpg)
 
 ## Order of work
+
+### Reading the illustrations
+
+Beige highlights mark new parts; grey parts are already assembled. The part thumbnail
+and quantity show what to add. The numbered circle is the assembly step; the dots show
+progress. Part numbers, fastener sizes and servo IDs are the same in every language.
+
+### Assembly sequence
 
 1. Mount the horns on the servos.
 2. Build the arm body **twice**, once for the follower and once for the leader (steps 1–11).

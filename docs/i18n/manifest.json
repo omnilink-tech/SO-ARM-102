@@ -1,0 +1,623 @@
+{
+  "schema_version": 1,
+  "kind": "full-document-translations",
+  "locales": {
+    "en": "English",
+    "ru": "Русский",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch",
+    "pt-BR": "Português (Brasil)",
+    "zh-CN": "简体中文",
+    "ja": "日本語",
+    "hi": "हिन्दी",
+    "ar": "العربية"
+  },
+  "documents": {
+    "README.md": {
+      "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+      "translations": {
+        "en": {
+          "path": "docs/i18n/en/README.md",
+          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "review": "source-copy"
+        },
+        "ru": {
+          "path": "docs/i18n/ru/README.md",
+          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "review": "structural-checks-only"
+        },
+        "es": {
+          "path": "docs/i18n/es/README.md",
+          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "review": "structural-checks-only"
+        },
+        "fr": {
+          "path": "docs/i18n/fr/README.md",
+          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "review": "structural-checks-only"
+        },
+        "de": {
+          "path": "docs/i18n/de/README.md",
+          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "review": "structural-checks-only"
+        },
+        "pt-BR": {
+          "path": "docs/i18n/pt-BR/README.md",
+          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "review": "structural-checks-only"
+        },
+        "zh-CN": {
+          "path": "docs/i18n/zh-CN/README.md",
+          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "review": "structural-checks-only"
+        },
+        "ja": {
+          "path": "docs/i18n/ja/README.md",
+          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "review": "structural-checks-only"
+        },
+        "hi": {
+          "path": "docs/i18n/hi/README.md",
+          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "review": "structural-checks-only"
+        },
+        "ar": {
+          "path": "docs/i18n/ar/README.md",
+          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "review": "structural-checks-only"
+        }
+      }
+    },
+    "docs/bom.md": {
+      "source_sha256": "cec7145261cdd80153cfc8f5c803e57a9e40144a10f9198e412e701d16e21c2b",
+      "translations": {
+        "en": {
+          "path": "docs/i18n/en/docs/bom.md",
+          "source_sha256": "cec7145261cdd80153cfc8f5c803e57a9e40144a10f9198e412e701d16e21c2b",
+          "review": "source-copy"
+        },
+        "ru": {
+          "path": "docs/i18n/ru/docs/bom.md",
+          "source_sha256": "cec7145261cdd80153cfc8f5c803e57a9e40144a10f9198e412e701d16e21c2b",
+          "review": "structural-checks-only"
+        },
+        "es": {
+          "path": "docs/i18n/es/docs/bom.md",
+          "source_sha256": "cec7145261cdd80153cfc8f5c803e57a9e40144a10f9198e412e701d16e21c2b",
+          "review": "structural-checks-only"
+        },
+        "fr": {
+          "path": "docs/i18n/fr/docs/bom.md",
+          "source_sha256": "cec7145261cdd80153cfc8f5c803e57a9e40144a10f9198e412e701d16e21c2b",
+          "review": "structural-checks-only"
+        },
+        "de": {
+          "path": "docs/i18n/de/docs/bom.md",
+          "source_sha256": "cec7145261cdd80153cfc8f5c803e57a9e40144a10f9198e412e701d16e21c2b",
+          "review": "structural-checks-only"
+        },
+        "pt-BR": {
+          "path": "docs/i18n/pt-BR/docs/bom.md",
+          "source_sha256": "cec7145261cdd80153cfc8f5c803e57a9e40144a10f9198e412e701d16e21c2b",
+          "review": "structural-checks-only"
+        },
+        "zh-CN": {
+          "path": "docs/i18n/zh-CN/docs/bom.md",
+          "source_sha256": "cec7145261cdd80153cfc8f5c803e57a9e40144a10f9198e412e701d16e21c2b",
+          "review": "structural-checks-only"
+        },
+        "ja": {
+          "path": "docs/i18n/ja/docs/bom.md",
+          "source_sha256": "cec7145261cdd80153cfc8f5c803e57a9e40144a10f9198e412e701d16e21c2b",
+          "review": "structural-checks-only"
+        },
+        "hi": {
+          "path": "docs/i18n/hi/docs/bom.md",
+          "source_sha256": "cec7145261cdd80153cfc8f5c803e57a9e40144a10f9198e412e701d16e21c2b",
+          "review": "structural-checks-only"
+        },
+        "ar": {
+          "path": "docs/i18n/ar/docs/bom.md",
+          "source_sha256": "cec7145261cdd80153cfc8f5c803e57a9e40144a10f9198e412e701d16e21c2b",
+          "review": "structural-checks-only"
+        }
+      }
+    },
+    "docs/printing.md": {
+      "source_sha256": "120e52533e908efd32337115dee28dd18e2515b864d166956ccd1b556dd3f2dc",
+      "translations": {
+        "en": {
+          "path": "docs/i18n/en/docs/printing.md",
+          "source_sha256": "120e52533e908efd32337115dee28dd18e2515b864d166956ccd1b556dd3f2dc",
+          "review": "source-copy"
+        },
+        "ru": {
+          "path": "docs/i18n/ru/docs/printing.md",
+          "source_sha256": "120e52533e908efd32337115dee28dd18e2515b864d166956ccd1b556dd3f2dc",
+          "review": "structural-checks-only"
+        },
+        "es": {
+          "path": "docs/i18n/es/docs/printing.md",
+          "source_sha256": "120e52533e908efd32337115dee28dd18e2515b864d166956ccd1b556dd3f2dc",
+          "review": "structural-checks-only"
+        },
+        "fr": {
+          "path": "docs/i18n/fr/docs/printing.md",
+          "source_sha256": "120e52533e908efd32337115dee28dd18e2515b864d166956ccd1b556dd3f2dc",
+          "review": "structural-checks-only"
+        },
+        "de": {
+          "path": "docs/i18n/de/docs/printing.md",
+          "source_sha256": "120e52533e908efd32337115dee28dd18e2515b864d166956ccd1b556dd3f2dc",
+          "review": "structural-checks-only"
+        },
+        "pt-BR": {
+          "path": "docs/i18n/pt-BR/docs/printing.md",
+          "source_sha256": "120e52533e908efd32337115dee28dd18e2515b864d166956ccd1b556dd3f2dc",
+          "review": "structural-checks-only"
+        },
+        "zh-CN": {
+          "path": "docs/i18n/zh-CN/docs/printing.md",
+          "source_sha256": "120e52533e908efd32337115dee28dd18e2515b864d166956ccd1b556dd3f2dc",
+          "review": "structural-checks-only"
+        },
+        "ja": {
+          "path": "docs/i18n/ja/docs/printing.md",
+          "source_sha256": "120e52533e908efd32337115dee28dd18e2515b864d166956ccd1b556dd3f2dc",
+          "review": "structural-checks-only"
+        },
+        "hi": {
+          "path": "docs/i18n/hi/docs/printing.md",
+          "source_sha256": "120e52533e908efd32337115dee28dd18e2515b864d166956ccd1b556dd3f2dc",
+          "review": "structural-checks-only"
+        },
+        "ar": {
+          "path": "docs/i18n/ar/docs/printing.md",
+          "source_sha256": "120e52533e908efd32337115dee28dd18e2515b864d166956ccd1b556dd3f2dc",
+          "review": "structural-checks-only"
+        }
+      }
+    },
+    "docs/assembly-guide.md": {
+      "source_sha256": "506b4e0d1ff81c710eee7339699691377600366f3dadec53e9699a9b1d0ca037",
+      "translations": {
+        "en": {
+          "path": "docs/i18n/en/docs/assembly-guide.md",
+          "source_sha256": "506b4e0d1ff81c710eee7339699691377600366f3dadec53e9699a9b1d0ca037",
+          "review": "source-copy"
+        },
+        "ru": {
+          "path": "docs/i18n/ru/docs/assembly-guide.md",
+          "source_sha256": "506b4e0d1ff81c710eee7339699691377600366f3dadec53e9699a9b1d0ca037",
+          "review": "structural-checks-only"
+        },
+        "es": {
+          "path": "docs/i18n/es/docs/assembly-guide.md",
+          "source_sha256": "506b4e0d1ff81c710eee7339699691377600366f3dadec53e9699a9b1d0ca037",
+          "review": "structural-checks-only"
+        },
+        "fr": {
+          "path": "docs/i18n/fr/docs/assembly-guide.md",
+          "source_sha256": "506b4e0d1ff81c710eee7339699691377600366f3dadec53e9699a9b1d0ca037",
+          "review": "structural-checks-only"
+        },
+        "de": {
+          "path": "docs/i18n/de/docs/assembly-guide.md",
+          "source_sha256": "506b4e0d1ff81c710eee7339699691377600366f3dadec53e9699a9b1d0ca037",
+          "review": "structural-checks-only"
+        },
+        "pt-BR": {
+          "path": "docs/i18n/pt-BR/docs/assembly-guide.md",
+          "source_sha256": "506b4e0d1ff81c710eee7339699691377600366f3dadec53e9699a9b1d0ca037",
+          "review": "structural-checks-only"
+        },
+        "zh-CN": {
+          "path": "docs/i18n/zh-CN/docs/assembly-guide.md",
+          "source_sha256": "506b4e0d1ff81c710eee7339699691377600366f3dadec53e9699a9b1d0ca037",
+          "review": "structural-checks-only"
+        },
+        "ja": {
+          "path": "docs/i18n/ja/docs/assembly-guide.md",
+          "source_sha256": "506b4e0d1ff81c710eee7339699691377600366f3dadec53e9699a9b1d0ca037",
+          "review": "structural-checks-only"
+        },
+        "hi": {
+          "path": "docs/i18n/hi/docs/assembly-guide.md",
+          "source_sha256": "506b4e0d1ff81c710eee7339699691377600366f3dadec53e9699a9b1d0ca037",
+          "review": "structural-checks-only"
+        },
+        "ar": {
+          "path": "docs/i18n/ar/docs/assembly-guide.md",
+          "source_sha256": "506b4e0d1ff81c710eee7339699691377600366f3dadec53e9699a9b1d0ca037",
+          "review": "structural-checks-only"
+        }
+      }
+    },
+    "docs/specifications.md": {
+      "source_sha256": "f2caafc60d841847fcdc6c9fd59c3d561cc774cf787be308b7310d8c63165aea",
+      "translations": {
+        "en": {
+          "path": "docs/i18n/en/docs/specifications.md",
+          "source_sha256": "f2caafc60d841847fcdc6c9fd59c3d561cc774cf787be308b7310d8c63165aea",
+          "review": "source-copy"
+        },
+        "ru": {
+          "path": "docs/i18n/ru/docs/specifications.md",
+          "source_sha256": "f2caafc60d841847fcdc6c9fd59c3d561cc774cf787be308b7310d8c63165aea",
+          "review": "structural-checks-only"
+        },
+        "es": {
+          "path": "docs/i18n/es/docs/specifications.md",
+          "source_sha256": "f2caafc60d841847fcdc6c9fd59c3d561cc774cf787be308b7310d8c63165aea",
+          "review": "structural-checks-only"
+        },
+        "fr": {
+          "path": "docs/i18n/fr/docs/specifications.md",
+          "source_sha256": "f2caafc60d841847fcdc6c9fd59c3d561cc774cf787be308b7310d8c63165aea",
+          "review": "structural-checks-only"
+        },
+        "de": {
+          "path": "docs/i18n/de/docs/specifications.md",
+          "source_sha256": "f2caafc60d841847fcdc6c9fd59c3d561cc774cf787be308b7310d8c63165aea",
+          "review": "structural-checks-only"
+        },
+        "pt-BR": {
+          "path": "docs/i18n/pt-BR/docs/specifications.md",
+          "source_sha256": "f2caafc60d841847fcdc6c9fd59c3d561cc774cf787be308b7310d8c63165aea",
+          "review": "structural-checks-only"
+        },
+        "zh-CN": {
+          "path": "docs/i18n/zh-CN/docs/specifications.md",
+          "source_sha256": "f2caafc60d841847fcdc6c9fd59c3d561cc774cf787be308b7310d8c63165aea",
+          "review": "structural-checks-only"
+        },
+        "ja": {
+          "path": "docs/i18n/ja/docs/specifications.md",
+          "source_sha256": "f2caafc60d841847fcdc6c9fd59c3d561cc774cf787be308b7310d8c63165aea",
+          "review": "structural-checks-only"
+        },
+        "hi": {
+          "path": "docs/i18n/hi/docs/specifications.md",
+          "source_sha256": "f2caafc60d841847fcdc6c9fd59c3d561cc774cf787be308b7310d8c63165aea",
+          "review": "structural-checks-only"
+        },
+        "ar": {
+          "path": "docs/i18n/ar/docs/specifications.md",
+          "source_sha256": "f2caafc60d841847fcdc6c9fd59c3d561cc774cf787be308b7310d8c63165aea",
+          "review": "structural-checks-only"
+        }
+      }
+    },
+    "models/README.md": {
+      "source_sha256": "3b8cb9b21d89056a7098770b5286cfc330f90e1dd8182e75047eb49b3a7724e2",
+      "translations": {
+        "en": {
+          "path": "docs/i18n/en/models/README.md",
+          "source_sha256": "3b8cb9b21d89056a7098770b5286cfc330f90e1dd8182e75047eb49b3a7724e2",
+          "review": "source-copy"
+        },
+        "ru": {
+          "path": "docs/i18n/ru/models/README.md",
+          "source_sha256": "3b8cb9b21d89056a7098770b5286cfc330f90e1dd8182e75047eb49b3a7724e2",
+          "review": "structural-checks-only"
+        },
+        "es": {
+          "path": "docs/i18n/es/models/README.md",
+          "source_sha256": "3b8cb9b21d89056a7098770b5286cfc330f90e1dd8182e75047eb49b3a7724e2",
+          "review": "structural-checks-only"
+        },
+        "fr": {
+          "path": "docs/i18n/fr/models/README.md",
+          "source_sha256": "3b8cb9b21d89056a7098770b5286cfc330f90e1dd8182e75047eb49b3a7724e2",
+          "review": "structural-checks-only"
+        },
+        "de": {
+          "path": "docs/i18n/de/models/README.md",
+          "source_sha256": "3b8cb9b21d89056a7098770b5286cfc330f90e1dd8182e75047eb49b3a7724e2",
+          "review": "structural-checks-only"
+        },
+        "pt-BR": {
+          "path": "docs/i18n/pt-BR/models/README.md",
+          "source_sha256": "3b8cb9b21d89056a7098770b5286cfc330f90e1dd8182e75047eb49b3a7724e2",
+          "review": "structural-checks-only"
+        },
+        "zh-CN": {
+          "path": "docs/i18n/zh-CN/models/README.md",
+          "source_sha256": "3b8cb9b21d89056a7098770b5286cfc330f90e1dd8182e75047eb49b3a7724e2",
+          "review": "structural-checks-only"
+        },
+        "ja": {
+          "path": "docs/i18n/ja/models/README.md",
+          "source_sha256": "3b8cb9b21d89056a7098770b5286cfc330f90e1dd8182e75047eb49b3a7724e2",
+          "review": "structural-checks-only"
+        },
+        "hi": {
+          "path": "docs/i18n/hi/models/README.md",
+          "source_sha256": "3b8cb9b21d89056a7098770b5286cfc330f90e1dd8182e75047eb49b3a7724e2",
+          "review": "structural-checks-only"
+        },
+        "ar": {
+          "path": "docs/i18n/ar/models/README.md",
+          "source_sha256": "3b8cb9b21d89056a7098770b5286cfc330f90e1dd8182e75047eb49b3a7724e2",
+          "review": "structural-checks-only"
+        }
+      }
+    },
+    "CONTRIBUTING.md": {
+      "source_sha256": "3ff39842a48c1d77605f60aa9aa82f8cbfaa007a354809517fd0a912f19844da",
+      "translations": {
+        "en": {
+          "path": "docs/i18n/en/CONTRIBUTING.md",
+          "source_sha256": "3ff39842a48c1d77605f60aa9aa82f8cbfaa007a354809517fd0a912f19844da",
+          "review": "source-copy"
+        },
+        "ru": {
+          "path": "docs/i18n/ru/CONTRIBUTING.md",
+          "source_sha256": "3ff39842a48c1d77605f60aa9aa82f8cbfaa007a354809517fd0a912f19844da",
+          "review": "structural-checks-only"
+        },
+        "es": {
+          "path": "docs/i18n/es/CONTRIBUTING.md",
+          "source_sha256": "3ff39842a48c1d77605f60aa9aa82f8cbfaa007a354809517fd0a912f19844da",
+          "review": "structural-checks-only"
+        },
+        "fr": {
+          "path": "docs/i18n/fr/CONTRIBUTING.md",
+          "source_sha256": "3ff39842a48c1d77605f60aa9aa82f8cbfaa007a354809517fd0a912f19844da",
+          "review": "structural-checks-only"
+        },
+        "de": {
+          "path": "docs/i18n/de/CONTRIBUTING.md",
+          "source_sha256": "3ff39842a48c1d77605f60aa9aa82f8cbfaa007a354809517fd0a912f19844da",
+          "review": "structural-checks-only"
+        },
+        "pt-BR": {
+          "path": "docs/i18n/pt-BR/CONTRIBUTING.md",
+          "source_sha256": "3ff39842a48c1d77605f60aa9aa82f8cbfaa007a354809517fd0a912f19844da",
+          "review": "structural-checks-only"
+        },
+        "zh-CN": {
+          "path": "docs/i18n/zh-CN/CONTRIBUTING.md",
+          "source_sha256": "3ff39842a48c1d77605f60aa9aa82f8cbfaa007a354809517fd0a912f19844da",
+          "review": "structural-checks-only"
+        },
+        "ja": {
+          "path": "docs/i18n/ja/CONTRIBUTING.md",
+          "source_sha256": "3ff39842a48c1d77605f60aa9aa82f8cbfaa007a354809517fd0a912f19844da",
+          "review": "structural-checks-only"
+        },
+        "hi": {
+          "path": "docs/i18n/hi/CONTRIBUTING.md",
+          "source_sha256": "3ff39842a48c1d77605f60aa9aa82f8cbfaa007a354809517fd0a912f19844da",
+          "review": "structural-checks-only"
+        },
+        "ar": {
+          "path": "docs/i18n/ar/CONTRIBUTING.md",
+          "source_sha256": "3ff39842a48c1d77605f60aa9aa82f8cbfaa007a354809517fd0a912f19844da",
+          "review": "structural-checks-only"
+        }
+      }
+    },
+    "LICENSING.md": {
+      "source_sha256": "c7d89546756c37f6f7c25e690cb6f8be94054b6de2d119a793eb8d18bc971127",
+      "translations": {
+        "en": {
+          "path": "docs/i18n/en/LICENSING.md",
+          "source_sha256": "c7d89546756c37f6f7c25e690cb6f8be94054b6de2d119a793eb8d18bc971127",
+          "review": "source-copy"
+        },
+        "ru": {
+          "path": "docs/i18n/ru/LICENSING.md",
+          "source_sha256": "c7d89546756c37f6f7c25e690cb6f8be94054b6de2d119a793eb8d18bc971127",
+          "review": "structural-checks-only"
+        },
+        "es": {
+          "path": "docs/i18n/es/LICENSING.md",
+          "source_sha256": "c7d89546756c37f6f7c25e690cb6f8be94054b6de2d119a793eb8d18bc971127",
+          "review": "structural-checks-only"
+        },
+        "fr": {
+          "path": "docs/i18n/fr/LICENSING.md",
+          "source_sha256": "c7d89546756c37f6f7c25e690cb6f8be94054b6de2d119a793eb8d18bc971127",
+          "review": "structural-checks-only"
+        },
+        "de": {
+          "path": "docs/i18n/de/LICENSING.md",
+          "source_sha256": "c7d89546756c37f6f7c25e690cb6f8be94054b6de2d119a793eb8d18bc971127",
+          "review": "structural-checks-only"
+        },
+        "pt-BR": {
+          "path": "docs/i18n/pt-BR/LICENSING.md",
+          "source_sha256": "c7d89546756c37f6f7c25e690cb6f8be94054b6de2d119a793eb8d18bc971127",
+          "review": "structural-checks-only"
+        },
+        "zh-CN": {
+          "path": "docs/i18n/zh-CN/LICENSING.md",
+          "source_sha256": "c7d89546756c37f6f7c25e690cb6f8be94054b6de2d119a793eb8d18bc971127",
+          "review": "structural-checks-only"
+        },
+        "ja": {
+          "path": "docs/i18n/ja/LICENSING.md",
+          "source_sha256": "c7d89546756c37f6f7c25e690cb6f8be94054b6de2d119a793eb8d18bc971127",
+          "review": "structural-checks-only"
+        },
+        "hi": {
+          "path": "docs/i18n/hi/LICENSING.md",
+          "source_sha256": "c7d89546756c37f6f7c25e690cb6f8be94054b6de2d119a793eb8d18bc971127",
+          "review": "structural-checks-only"
+        },
+        "ar": {
+          "path": "docs/i18n/ar/LICENSING.md",
+          "source_sha256": "c7d89546756c37f6f7c25e690cb6f8be94054b6de2d119a793eb8d18bc971127",
+          "review": "structural-checks-only"
+        }
+      }
+    },
+    "CLAUDE.md": {
+      "source_sha256": "c308044648505eac3e66d0d5767917bd1fd2807c62b915bc7887c922fb0bf012",
+      "translations": {
+        "en": {
+          "path": "docs/i18n/en/CLAUDE.md",
+          "source_sha256": "c308044648505eac3e66d0d5767917bd1fd2807c62b915bc7887c922fb0bf012",
+          "review": "source-copy"
+        },
+        "ru": {
+          "path": "docs/i18n/ru/CLAUDE.md",
+          "source_sha256": "c308044648505eac3e66d0d5767917bd1fd2807c62b915bc7887c922fb0bf012",
+          "review": "structural-checks-only"
+        },
+        "es": {
+          "path": "docs/i18n/es/CLAUDE.md",
+          "source_sha256": "c308044648505eac3e66d0d5767917bd1fd2807c62b915bc7887c922fb0bf012",
+          "review": "structural-checks-only"
+        },
+        "fr": {
+          "path": "docs/i18n/fr/CLAUDE.md",
+          "source_sha256": "c308044648505eac3e66d0d5767917bd1fd2807c62b915bc7887c922fb0bf012",
+          "review": "structural-checks-only"
+        },
+        "de": {
+          "path": "docs/i18n/de/CLAUDE.md",
+          "source_sha256": "c308044648505eac3e66d0d5767917bd1fd2807c62b915bc7887c922fb0bf012",
+          "review": "structural-checks-only"
+        },
+        "pt-BR": {
+          "path": "docs/i18n/pt-BR/CLAUDE.md",
+          "source_sha256": "c308044648505eac3e66d0d5767917bd1fd2807c62b915bc7887c922fb0bf012",
+          "review": "structural-checks-only"
+        },
+        "zh-CN": {
+          "path": "docs/i18n/zh-CN/CLAUDE.md",
+          "source_sha256": "c308044648505eac3e66d0d5767917bd1fd2807c62b915bc7887c922fb0bf012",
+          "review": "structural-checks-only"
+        },
+        "ja": {
+          "path": "docs/i18n/ja/CLAUDE.md",
+          "source_sha256": "c308044648505eac3e66d0d5767917bd1fd2807c62b915bc7887c922fb0bf012",
+          "review": "structural-checks-only"
+        },
+        "hi": {
+          "path": "docs/i18n/hi/CLAUDE.md",
+          "source_sha256": "c308044648505eac3e66d0d5767917bd1fd2807c62b915bc7887c922fb0bf012",
+          "review": "structural-checks-only"
+        },
+        "ar": {
+          "path": "docs/i18n/ar/CLAUDE.md",
+          "source_sha256": "c308044648505eac3e66d0d5767917bd1fd2807c62b915bc7887c922fb0bf012",
+          "review": "structural-checks-only"
+        }
+      }
+    },
+    "NOTICE": {
+      "source_sha256": "4a561f6a36c0207141f6ddb34523f20419063746c295a288d8e830c9113b70b5",
+      "translations": {
+        "en": {
+          "path": "docs/i18n/en/NOTICE.md",
+          "source_sha256": "4a561f6a36c0207141f6ddb34523f20419063746c295a288d8e830c9113b70b5",
+          "review": "source-copy"
+        },
+        "ru": {
+          "path": "docs/i18n/ru/NOTICE.md",
+          "source_sha256": "4a561f6a36c0207141f6ddb34523f20419063746c295a288d8e830c9113b70b5",
+          "review": "structural-checks-only"
+        },
+        "es": {
+          "path": "docs/i18n/es/NOTICE.md",
+          "source_sha256": "4a561f6a36c0207141f6ddb34523f20419063746c295a288d8e830c9113b70b5",
+          "review": "structural-checks-only"
+        },
+        "fr": {
+          "path": "docs/i18n/fr/NOTICE.md",
+          "source_sha256": "4a561f6a36c0207141f6ddb34523f20419063746c295a288d8e830c9113b70b5",
+          "review": "structural-checks-only"
+        },
+        "de": {
+          "path": "docs/i18n/de/NOTICE.md",
+          "source_sha256": "4a561f6a36c0207141f6ddb34523f20419063746c295a288d8e830c9113b70b5",
+          "review": "structural-checks-only"
+        },
+        "pt-BR": {
+          "path": "docs/i18n/pt-BR/NOTICE.md",
+          "source_sha256": "4a561f6a36c0207141f6ddb34523f20419063746c295a288d8e830c9113b70b5",
+          "review": "structural-checks-only"
+        },
+        "zh-CN": {
+          "path": "docs/i18n/zh-CN/NOTICE.md",
+          "source_sha256": "4a561f6a36c0207141f6ddb34523f20419063746c295a288d8e830c9113b70b5",
+          "review": "structural-checks-only"
+        },
+        "ja": {
+          "path": "docs/i18n/ja/NOTICE.md",
+          "source_sha256": "4a561f6a36c0207141f6ddb34523f20419063746c295a288d8e830c9113b70b5",
+          "review": "structural-checks-only"
+        },
+        "hi": {
+          "path": "docs/i18n/hi/NOTICE.md",
+          "source_sha256": "4a561f6a36c0207141f6ddb34523f20419063746c295a288d8e830c9113b70b5",
+          "review": "structural-checks-only"
+        },
+        "ar": {
+          "path": "docs/i18n/ar/NOTICE.md",
+          "source_sha256": "4a561f6a36c0207141f6ddb34523f20419063746c295a288d8e830c9113b70b5",
+          "review": "structural-checks-only"
+        }
+      }
+    },
+    "docs/translations.md": {
+      "source_sha256": "50649d49037679dabc017cb5c9f0e86dfae25ee12e7e69fb92448dffd9a89d94",
+      "translations": {
+        "en": {
+          "path": "docs/i18n/en/docs/translations.md",
+          "source_sha256": "50649d49037679dabc017cb5c9f0e86dfae25ee12e7e69fb92448dffd9a89d94",
+          "review": "source-copy"
+        },
+        "ru": {
+          "path": "docs/i18n/ru/docs/translations.md",
+          "source_sha256": "50649d49037679dabc017cb5c9f0e86dfae25ee12e7e69fb92448dffd9a89d94",
+          "review": "structural-checks-only"
+        },
+        "es": {
+          "path": "docs/i18n/es/docs/translations.md",
+          "source_sha256": "50649d49037679dabc017cb5c9f0e86dfae25ee12e7e69fb92448dffd9a89d94",
+          "review": "structural-checks-only"
+        },
+        "fr": {
+          "path": "docs/i18n/fr/docs/translations.md",
+          "source_sha256": "50649d49037679dabc017cb5c9f0e86dfae25ee12e7e69fb92448dffd9a89d94",
+          "review": "structural-checks-only"
+        },
+        "de": {
+          "path": "docs/i18n/de/docs/translations.md",
+          "source_sha256": "50649d49037679dabc017cb5c9f0e86dfae25ee12e7e69fb92448dffd9a89d94",
+          "review": "structural-checks-only"
+        },
+        "pt-BR": {
+          "path": "docs/i18n/pt-BR/docs/translations.md",
+          "source_sha256": "50649d49037679dabc017cb5c9f0e86dfae25ee12e7e69fb92448dffd9a89d94",
+          "review": "structural-checks-only"
+        },
+        "zh-CN": {
+          "path": "docs/i18n/zh-CN/docs/translations.md",
+          "source_sha256": "50649d49037679dabc017cb5c9f0e86dfae25ee12e7e69fb92448dffd9a89d94",
+          "review": "structural-checks-only"
+        },
+        "ja": {
+          "path": "docs/i18n/ja/docs/translations.md",
+          "source_sha256": "50649d49037679dabc017cb5c9f0e86dfae25ee12e7e69fb92448dffd9a89d94",
+          "review": "structural-checks-only"
+        },
+        "hi": {
+          "path": "docs/i18n/hi/docs/translations.md",
+          "source_sha256": "50649d49037679dabc017cb5c9f0e86dfae25ee12e7e69fb92448dffd9a89d94",
+          "review": "structural-checks-only"
+        },
+        "ar": {
+          "path": "docs/i18n/ar/docs/translations.md",
+          "source_sha256": "50649d49037679dabc017cb5c9f0e86dfae25ee12e7e69fb92448dffd9a89d94",
+          "review": "structural-checks-only"
+        }
+      }
+    }
+  }
+}
