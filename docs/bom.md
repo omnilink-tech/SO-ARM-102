@@ -9,20 +9,23 @@ Printed parts are listed separately in [printing.md](printing.md).
 
 | Category | Cost of quantities used (USD) | Buy full packs / spools (USD) |
 |---|---:|---:|
-| Servos (12 pcs) | $283.6 | $283.6 |
-| Electronics, camera and power supplies | $71.5 | $71.5 |
-| Bearings, steel guide rods and table clamps | $37.8 | $49.7 |
-| Fasteners | $11.2 | $32.9 |
-| **Components subtotal** | **$404.1** | **$437.7** |
-| Printing material: 0.6 kg PET-CF17 + 0.6 kg PETG | $39.6 | $66.0 |
-| **Total with printing material** | **$443.7** | **$503.7** |
+| Servos (12 pcs) | $283.62 | $283.62 |
+| Electronics, camera and power supplies | $71.50 | $71.50 |
+| Bearings, steel guide rods and table clamps | $37.76 | $49.7 |
+| Fasteners | $11.21 | $32.9 |
+| **Components subtotal** | **$404.09** | **$437.7** |
+| Printing material: 0.6 kg PET-CF17 + 0.6 kg PETG | $39.59 | $66.0 |
+| **Total with printing material** | **$443.68** | **$503.7** |
 
+The **Total (USD)** column is the cost of the quantity needed for one kit,
+using the reference offer behind each existing line total (not the sum of supplier offers).
+Included screws cost $0; alternative carbon tubes are excluded from totals.
 Estimates use the reference prices listed below, with each line rounded to cents.
 They are not new supplier quotes: confirm the selected variants, minimum order
 quantities and prices before ordering. Shipping, taxes, tools, a computer, a printer,
 electricity and assembly labour are excluded.
 
-The full-pack column includes unused spares, 1 kg PET-CF17 spool and 
+The full-pack column includes unused spares, 1 kg PET-CF17 spool and
 1 kg PETG spool. Printing quantities are budget allowances; re-slice the supplied
 3MF projects for your settings. Rod costs use steel; carbon tubes are an alternative.
 
@@ -41,12 +44,13 @@ The full-pack column includes unused spares, 1 kg PET-CF17 spool and
 
 Totals: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V. All are Feetech TTL serial bus servos.
 
-| Servo | Qty | Selection | Aliexpress link | Unit price (USD) | Alibaba link | Unit price (USD) | Kit cost (USD) |
+| Servo | Qty | Selection | Aliexpress link | Unit price (USD) | Alibaba link | Unit price (USD) | Total (USD) |
 |---|---|---|---|---|---|---|---|
 | STS3215 | 6 | 7.4V TTL version for leader servos. Select ST-3215-C044 (7.4V). | [Aliexpress](https://www.aliexpress.us/item/3256811860804361.html) | $32.8 | [Alibaba](https://www.alibaba.com/product-detail/Top-Seller-Low-Cost-Feetech-STS3215_1600999461525.html) | $13.89 | $83.34 |
 | STS3215 | 2 | 12V TTL version for follower joints 5 and 6. Select ST-3215-C049 (12V30KG). | [Aliexpress](https://www.aliexpress.us/item/3256811832699316.html) | $55.8 for 2pcs | [Alibaba](https://www.alibaba.com/product-detail/6pcs-12V-30KG-1-345-STS3215_1601900233170.html) | $14.70 | $29.40 |
 | STS3235 | 2 | 12V TTL version for follower joints 1 and 4. | [Aliexpress](https://www.aliexpress.us/item/3256810213842277.html) | $63 | [Alibaba](https://www.alibaba.com/product-detail/FEETECH-STS3235-12V-30KG-TTL-Dual_1601910640629.html) | $40.79 | $81.58 |
 | STS3250 | 2 | 12V TTL version for follower joints 2 and 3. | [Aliexpress](https://www.aliexpress.us/item/3256811995148799.html) | $126.4 for 2pcs | [Alibaba](https://www.alibaba.com/product-detail/Feetech-STS3250-12V-50kg-Servo-High_1601711893549.html) | $44.65 | $89.30 |
+| **Total** | | | | | | | **$283.62** |
 
 - **Follower, 12V.** STS3250 is a 50 kg·cm brushless servo at 75 RPM. It drives the two joints that carry the most load.
   STS3235 is a 30 kg·cm servo with lower backlash than the STS3215.
@@ -55,7 +59,7 @@ Totals: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V.
 
 ## Electronics
 
-| Item | Qty | Notes | Buy US | Unit cost (US) | Buy US | Unit cost (US) | Buy EU | Unit cost (EU) | Kit cost (USD) |
+| Item | Qty | Notes | Buy US | Unit cost (US) | Buy US | Unit cost (US) | Buy EU | Unit cost (EU) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Waveshare Bus Servo Driver HAT | 1 | Follower controller | [Amazon](https://www.amazon.com/Serial-Bus-Servo-Driver-Board/dp/B0D83QMQ4N) | $26.60 | [Aliexpress](https://www.aliexpress.us/item/3256809887200297.html) | $28.90 | [Amazon EU](https://www.amazon.fr/-/en/Waveshare-Bus-Servo-Driver-Integrates/dp/B0D5VF6CK3/) | €30.00 | $26.60 |
 | Waveshare Bus Servo Adapter | 1 | Leader controller | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Applicable-Integrate/dp/B0CJ6TP3TP/) | $13.00 | [Aliexpress](https://www.aliexpress.us/item/3256810343532716.html) | $7.40 | [Amazon EU](https://www.amazon.fr/-/en/Serial-Integrates-Control-Circuit-Support/dp/B0CJBKQ8LJ/) | €11.90 | $7.40 |
@@ -63,22 +67,24 @@ Totals: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V.
 | Power supply 5V DC (5V 2A power supply 5.5 2.1mm) | 1 | Leader. Match the Adapter's connector (5.5x2.1mm). | [Amazon](https://www.amazon.com/MTDZKJG-Adapter-100V-240V-Transformer-Security/dp/B0BZP65GRW/) | $6.20 | [Aliexpress](https://www.aliexpress.us/item/3256812479558626.html) | $4.10 | [Amazon EU](https://www.amazon.fr/5V-2A-Supply-DC-Adapter/dp/B0GDXFRYJS/) | €11.00 | $4.10 |
 | USB-C cable, 1.5 m (USB A to USB C data cable 1.5m) | 2 | One per controller. Choose a data cable, not a charging-only cable. | [Amazon](https://www.amazon.com/Data-Cable-1-5ft-10Gbps-Transfer/dp/B0FMJTHRCM/) | $6.00 | [Aliexpress](https://www.aliexpress.us/item/3256812299430938.html) | $3.00 | [Amazon EU](https://www.amazon.fr/-/en/10Gbps-Transfer-Charging-Samsung-External/dp/B0DHZ1R8FQ/) | €7.00 | $6.00 |
 | USB camera (OV2735, 1080P USB Camera Module, 2MP 1920x1080, UVC Camera, 2.8 or 3.0 mm lens) | 1 | Wrist camera on the follower gripper. The prototype used an OV2735 module. Check module dimensions and mounting holes against the camera holder. | [Amazon](https://www.amazon.com/innomaker-Computer-Raspberry-Support-Windows/dp/B0CNCSFQC1/) | $19.00 | [Aliexpress](https://www.aliexpress.us/item/3256804452094739.html) | $26.10 | [Amazon EU](https://www.amazon.fr/InnoMaker-Raspberry-Compatible-Windows-Android/dp/B0CNCSFQC1/) | €21.00 | $19.00 |
+| **Total** | | | | | | | | | **$71.50** |
 
 ## Mechanical parts
 
-| Item | Size | Qty | Where | Buy US | Unit cost (US) | Buy US | Unit cost (US) | Buy EU | Unit cost (EU) | Kit cost (USD) |
+| Item | Size | Qty | Where | Buy US | Unit cost (US) | Buy US | Unit cost (US) | Buy EU | Unit cost (EU) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Ball bearing 6812 | 60 × 78 × 10 mm | 2 | Base rotation, one per arm | [Amazon](https://www.amazon.com/Othmro-6812-2RS-60x78x10mm-Accuracy-Bearing/dp/B081W9QL2Z/) | $5.90 | [Aliexpress](https://www.aliexpress.us/item/3256812369319030.html) | $39.60 / 2 | [Amazon EU](https://www.amazon.fr/-/en/XYWHPGV-6812-2RS-Groove-Bearings-Chrome/dp/B0CQLT6J6D/) | €7.40 / 2 | $11.80 |
 | Flanged bearing MF106ZZ | 6 × 10 × 3 mm | 2 | Gripper main frame | [Amazon](https://www.amazon.com/METERXITY-Shielded-Bearings-Wheelbarrow-Machines/dp/B0F4QXJSRQ/) | $6.60 / 4 | [Aliexpress](https://www.aliexpress.us/item/3256807821523719.html) | $6.00 / 10 | [Amazon EU](https://www.amazon.fr/-/en/PRECISCRY-DE-SGQ-FLZC-11-MF128ZZ-8x12x3-5-5Pcs/dp/B0GQK9BGWK/) | €11.60 / 5 | $1.20 |
 | Rod (Stainless Steel Round Rod, 6mm Diameter, Length 125mm) | Ø6 × 125 mm, carbon or steel | 2 | Gripper guides | [Amazon](https://www.amazon.com/SKYPRO-Stainless-Diameter-Industry-Working/dp/B0CLCSWSJ9?th=1) | $11.90 / 5 | [Aliexpress](https://www.aliexpress.us/item/3256805290944526.html) | $2.80 | [Amazon EU](https://www.amazon.fr/-/en/SKYPRO-Stainless-Diameter-Industry-Metalworking/dp/B0CLCSWSJ9/) | €14.40 / 5 | $4.76 |
 | Carbon tube (Carbon tube, 6mm x 4mm x 125mm), alternative | Ø6 × 4 × 125 mm | 2 | Alternative to steel gripper guide rods | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 (alternative) |
 | C-clamp | 3 inch, 0–75 mm opening | 4 | Two per arm, to fix the base to the table | [Amazon](https://www.amazon.com/Inch-Clamp-Woodworking-Precision-Carpentry/dp/B0FLHZVM7G/) | $10.00 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256813098676278.html) | $9.70 | [Amazon EU](https://www.amazon.fr/Performance-75mm-Adjustable-Stainless-Metalworking/dp/B0GSQL9BCN/) | €17.40 / 2 | $20.00 |
+| **Total** | | | | | | | | | | **$37.76** |
 
 ## Fasteners
 
 Kit totals as packed in the assembly booklet.
 
-| Fastener | Standard | Qty | Buy US | Unit cost (US) | Buy US | Unit cost (US) | Buy EU | Unit cost (EU) | Kit cost (USD) |
+| Fastener | Standard | Qty | Buy US | Unit cost (US) | Buy US | Unit cost (US) | Buy EU | Unit cost (EU) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | M2 × 6 socket head | DIN 912 | 28 | [Amazon](https://www.amazon.com/Socket-Stainless-Threaded-Furniture-Printing/dp/B0DKY8XHB1/) | $6.60 / 60 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 100 | [Amazon EU](https://www.amazon.fr/-/en/THFJWJ-M2-Allen-Cylinder-Screws/dp/B0FP8ZP1XT/) | €6.60 / 60 | $1.04 |
 | M2 × 8 socket head | DIN 912 | 12 | [Amazon](https://www.amazon.com/Socket-Stainless-Threaded-Furniture-Printing/dp/B0DKY7L8YJ/) | $6.60 / 50 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $4.10 / 100 | [Amazon EU](https://www.amazon.fr/-/en/THFJWJ-M2-Allen-Cylinder-Screws/dp/B0FP8ZKVDN/) | €7.00 / 60 | $0.49 |
@@ -90,15 +96,17 @@ Kit totals as packed in the assembly booklet.
 | M3 hex nut | DIN 934 | 36 | [Amazon](https://www.amazon.com/FOCMKEAS-Stainless-Hexagon-Fasteners-Hardware/dp/B0CR7WL4D6/) | $3.70 / 50 | [Aliexpress](https://www.aliexpress.us/item/3256812621986317.html) | $4.00 / 100 | [Amazon EU](https://www.amazon.fr/-/en/PRORAJE-Stainless-Steel-Hexagonal-Diameter/dp/B0GVC7PD4Q/) | €6.30 / 50 | $1.44 |
 | M3 × 6 Phillips-head screw | from servo kit | 16 | Included with the servos. | — | — | — | — | — | — |
 | Self-tapping screw 2 × 6 | from servo kit | 20 | Included with the servos. | — | — | — | — | — | — |
+| **Total** | | | | | | | | | **$11.21** |
 
 Black fasteners match the look of the renders but are not required.
 
 ## Printing materials
 
-| Material | Use | Purchase link | Price / budget (USD) |
-|---|---|---|---|
-| Fiberon PET-CF17 | Tested material for the arm links, bases and servo holders | [Polymaker](https://shop.polymaker.com/products/fiberon-pet-cf17) | $44.99 / 1 kg |
-| PETG or PET-CF | Gripper clamps, covers, leader handle and trigger | [Amazon](https://www.amazon.com/Bambu-Printer-Filament-1-75mm-Spool/dp/B0GS568LQ1/) | PETG: $21.00 / 1 kg |
+| Material | Use | Purchase link | Price / budget (USD) | Total (USD) |
+|---|---|---|---|---:|
+| Fiberon PET-CF17 | Tested material for the arm links, bases and servo holders | [Polymaker](https://shop.polymaker.com/products/fiberon-pet-cf17) | $44.99 / 1 kg | $26.99 (0.6 kg) |
+| PETG or PET-CF | Gripper clamps, covers, leader handle and trigger | [Amazon](https://www.amazon.com/Bambu-Printer-Filament-1-75mm-Spool/dp/B0GS568LQ1/) | PETG: $21.00 / 1 kg | $12.60 (0.6 kg) |
+| **Total** | | | | **$39.59** |
 
 Use the [printing guide](printing.md) and re-slice the supplied 3MF projects to determine
 the filament quantity for your printer and settings.
