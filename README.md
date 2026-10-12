@@ -1,5 +1,9 @@
 # SO-ARM 102
 
+<!-- documentation-languages -->
+[English](docs/i18n/en/README.md) · [Русский](docs/i18n/ru/README.md) · [Español](docs/i18n/es/README.md) · [Français](docs/i18n/fr/README.md) · [Deutsch](docs/i18n/de/README.md) · [Português (Brasil)](docs/i18n/pt-BR/README.md) · [简体中文](docs/i18n/zh-CN/README.md) · [日本語](docs/i18n/ja/README.md) · [हिन्दी](docs/i18n/hi/README.md) · [العربية](docs/i18n/ar/README.md)
+<!-- /documentation-languages -->
+
 <div align="center">
 
 [![SO-ARM 102](assets/images/photos/so-arm-102-live.jpg)](assets/video/so-arm-102-preview.mp4)
@@ -170,7 +174,7 @@ Keep `meshes/` beside the description files; mesh paths are relative to this fol
 
 [Export settings](simulation/urdf/export_settings.json) and
 [mass properties](simulation/urdf/mass_properties.json) record the assumptions.
-Geometry and inertia checks are recorded in
+Geometry and inertia checks are recorded in [export_verification.json](simulation/urdf/export_verification.json).
 
 ---
 

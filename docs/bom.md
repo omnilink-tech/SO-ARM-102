@@ -1,5 +1,9 @@
 # Bill of materials
 
+<!-- documentation-languages -->
+[English](i18n/en/docs/bom.md) · [Русский](i18n/ru/docs/bom.md) · [Español](i18n/es/docs/bom.md) · [Français](i18n/fr/docs/bom.md) · [Deutsch](i18n/de/docs/bom.md) · [Português (Brasil)](i18n/pt-BR/docs/bom.md) · [简体中文](i18n/zh-CN/docs/bom.md) · [日本語](i18n/ja/docs/bom.md) · [हिन्दी](i18n/hi/docs/bom.md) · [العربية](i18n/ar/docs/bom.md)
+<!-- /documentation-languages -->
+
 Quantities are for one complete kit: one follower arm and one leader arm.
 Printed parts are listed separately in [printing.md](printing.md).
 

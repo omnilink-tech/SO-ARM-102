@@ -1,5 +1,9 @@
 # Specifications and test results
 
+<!-- documentation-languages -->
+[English](i18n/en/docs/specifications.md) · [Русский](i18n/ru/docs/specifications.md) · [Español](i18n/es/docs/specifications.md) · [Français](i18n/fr/docs/specifications.md) · [Deutsch](i18n/de/docs/specifications.md) · [Português (Brasil)](i18n/pt-BR/docs/specifications.md) · [简体中文](i18n/zh-CN/docs/specifications.md) · [日本語](i18n/ja/docs/specifications.md) · [हिन्दी](i18n/hi/docs/specifications.md) · [العربية](i18n/ar/docs/specifications.md)
+<!-- /documentation-languages -->
+
 Measured on Robonine prototypes in August and September 2026.
 Numbers marked *calculated* come from the URDF model and servo datasheets, not from a measurement.
 

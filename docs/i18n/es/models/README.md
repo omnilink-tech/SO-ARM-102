@@ -1,0 +1,43 @@
+<!-- translation-navigation -->
+[English](../../en/models/README.md) · [Русский](../../ru/models/README.md) · [Español](README.md) · [Français](../../fr/models/README.md) · [Deutsch](../../de/models/README.md) · [Português (Brasil)](../../pt-BR/models/README.md) · [简体中文](../../zh-CN/models/README.md) · [日本語](../../ja/models/README.md) · [हिन्दी](../../hi/models/README.md) · [العربية](../../ar/models/README.md)
+
+[Original en inglés](../../../../models/README.md)
+
+[Documentación](../README.md) · [Impresión](../docs/printing.md) · [Materiales](../docs/bom.md) · [Montaje](../docs/assembly-guide.md) · [Especificaciones](../docs/specifications.md) · [Modelos](README.md) · [Contribuir](../CONTRIBUTING.md) · [Licencias](../LICENSING.md) · [Traducciones](../docs/translations.md)
+
+> Traducción completa del documento. Las ilustraciones y el manual PDF original se comparten entre idiomas. Traducción realizada con ayuda de IA; aún no revisada por hablantes nativos.
+<!-- /translation-navigation -->
+
+<!-- translated-content -->
+<a id="3d-models"></a>
+# Modelos 3D
+
+| Carpeta | Contenido |
+|---|---|
+| `3mf/` | Bambu Studio proyectos con configuraciones guardadas de diseño de placa, orientación y soporte |
+| `stl/` | Mallas listas para imprimir, binario STL, milímetros |
+| `step/` | CAD fuentes, un sólido por archivo |
+
+Las carpetas `stl/` y `step/` utilizan la misma división:
+
+- `common/` Las cantidades en la tabla de impresión cubren todo el kit, por lo que no es necesario realizar una copia.
+- `follower/` contiene la pinza paralela, el soporte de cámara y la caja de placa del brazo robot seguidor.
+- `leader/` sostiene el mango, gatillo, rollo de muñeca y la caja del tablero del brazo robot líder.
+
+<a id="3mf-slicer-projects"></a>
+## 3MF proyectos de slicer
+
+| Proyecto | Contenido | Perfil de filamento guardado |
+|---|---|---|
+| [SO102_leader.3mf](../../../../models/3mf/SO102_leader.3mf) | Un brazo robot líder: piezas de brazo robot, manija, gatillo, rollo de muñeca y caja de tablero | Bambu PETG-CF |
+| [SO102_follower.3mf](../../../../models/3mf/SO102_follower.3mf) | Piezas del brazo robot de un brazo robot seguidor | Fiberon PET-CF17 |
+| [SO102_follower_gripper_box.3mf](../../../../models/3mf/SO102_follower_gripper_box.3mf) | Pinza del brazo robot seguidor, soporte de cámara y espaciador, y caja de la placa | Bambu PETG-CF |
+
+Abra estos archivos como proyectos en **Bambu Studio**para conservar los ajustes guardados. Los tres usan el perfil de boquilla**Bambu Lab A1, 0.4 mm**y una placa**256 × 256 mm** cada uno. Seleccione su impresora, boquilla y filamento antes de cortar. Para una placa de construcción de impresora 3D más pequeña, divida las piezas en placas adicionales mientras preserva sus orientaciones y ajustes de soporte.
+
+Para un brazo robot líder + un brazo robot seguidor, imprima los tres proyectos una vez.Los proyectos de brazos robot incluyen las piezas comunes para un brazo robot; no es necesario imprimir un conjunto común por separado.
+
+Los ajustes guardados y las vistas previas de diseño están en [docs/printing.md](../docs/printing.md#3mf-slicer-projects).
+
+Los números de pieza, cantidades y ajustes de impresión están en [docs/printing.md](../docs/printing.md).
+<!-- /translated-content -->

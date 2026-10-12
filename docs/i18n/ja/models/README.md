@@ -1,0 +1,43 @@
+<!-- translation-navigation -->
+[English](../../en/models/README.md) · [Русский](../../ru/models/README.md) · [Español](../../es/models/README.md) · [Français](../../fr/models/README.md) · [Deutsch](../../de/models/README.md) · [Português (Brasil)](../../pt-BR/models/README.md) · [简体中文](../../zh-CN/models/README.md) · [日本語](README.md) · [हिन्दी](../../hi/models/README.md) · [العربية](../../ar/models/README.md)
+
+[英語原文](../../../../models/README.md)
+
+[ドキュメント](../README.md) · [印刷](../docs/printing.md) · [部品表](../docs/bom.md) · [組立](../docs/assembly-guide.md) · [仕様](../docs/specifications.md) · [モデル](README.md) · [貢献方法](../CONTRIBUTING.md) · [ライセンス](../LICENSING.md) · [翻訳](../docs/translations.md)
+
+> この文書の全文翻訳です。図と元のPDF冊子は各言語で共用します。AIを使用した翻訳であり、母語話者による確認は未実施です。
+<!-- /translation-navigation -->
+
+<!-- translated-content -->
+<a id="3d-models"></a>
+# 3Dモデル
+
+| フォルダー | 内容 |
+|---|---|
+| `3mf/` | 保存されたプレートレイアウト、方向、サポート設定を持つプロジェクト Bambu Studio |
+| `stl/` | 印刷可能なメッシュ、二進法 STL、ミリメートル |
+| `step/` | CAD ソース、ファイルごとに一つの固体 |
+
+フォルダ `stl/` と `step/` は同じスプリットを使用しています:
+
+- `common/` は両方のロボットアームが使用する部品を含みます。印刷テーブルにある数量はキット全体をカバーします。
+- `follower/` パラレルグリップ カメラマウント フォローロボットアーム ボードケース
+- `leader/`はハンドル，トリガー，手首ロールとリーダーロボットアームボードケースを持っている。
+
+<a id="3mf-slicer-projects"></a>
+## 3MF スライサープロジェクト
+
+| プロジェクト | 内容 | 保存済みフィラメントプロファイル |
+|---|---|---|
+| [SO102_leader.3mf](../../../../models/3mf/SO102_leader.3mf) | ワンリーダーロボットアーム：ロボットアーム部品，ハンドル，トリガー，手首ロール，ボードケース | Bambu PETG-CF |
+| [SO102_follower.3mf](../../../../models/3mf/SO102_follower.3mf) | ワンフォローロボットアームのロボットアーム部分 | Fiberon PET-CF17 |
+| [SO102_follower_gripper_box.3mf](../../../../models/3mf/SO102_follower_gripper_box.3mf) | フォロワーロボットアームグリップ，カメラホルダーとスペーサ，ボードケース | Bambu PETG-CF |
+
+これらのファイルを **Bambu Studio**でプロジェクトとして開き、保存した設定を保持します。すべてのファイルは**Bambu Lab A1, 0.4 mm ノズルプロファイルと **256 × 256 mm** プレートを使用しています。スライスする前にプリンタ、ノズル、フィラメントを選択してください。小さな 3D プリンタビルドプレートの場合は、配向とサポート設定を保持しながら部品を追加のプレートに分割してください。
+
+１つのリーダーロボットアームと１つのフォローアームに対して，３つのプロジェクトを一度に印刷する。ロボットアームプロジェクトはそれぞれ１つのロボットアームの共通部品を含み，別々の共通セットを印刷する必要はない。
+
+保存された設定とレイアウトのプレビューは [docs/printing.md](../docs/printing.md#3mf-slicer-projects)にあります。
+
+部品番号、数量、印刷設定は [docs/printing.md](../docs/printing.md).
+<!-- /translated-content -->
