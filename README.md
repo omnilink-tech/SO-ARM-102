@@ -16,7 +16,7 @@ designed by [Robonine](https://robonine.com) as a stiffer, faster successor to t
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
 
-**DIY budget: ~$414 for components, or ~$469 including printing material.**
+**DIY budget: ~$404 for components, or ~$444 including printing material.**
 [BOM summary](#bill-of-materials) · [Itemised costs and purchase links](docs/bom.md#estimated-kit-cost)
 
 > Rather not source the parts and print them yourself? **[Buy the SO-ARM 102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
@@ -106,8 +106,8 @@ for the arm parts, excluding the gripper. Re-slice the 3MF projects for current 
 ### 2. Buy the hardware
 
 Source the components from the [BOM summary](#bill-of-materials) and
-[full BOM with purchase links](docs/bom.md). Budget **$414.21** for components,
-or **$469.19** including printing material, before shipping and taxes.
+[full BOM with purchase links](docs/bom.md). Budget **$404.09** for components,
+or **$443.68** including printing material, before shipping and taxes.
 
 | Arm | Servos | Controller | Power |
 |---|---|---|---|
@@ -134,20 +134,21 @@ The arm uses the LeRobot SO-101 leader/follower workflow.
 
 Quantities and reference costs for **one leader + one follower**:
 
-| Category | Kit contents | Estimated cost (USD) |
+| Category / purchase links | Kit contents | Total (USD) |
 |---|---|---:|
-| Servos | 8 × STS3215, 2 × STS3235, 2 × STS3250 | $283.62 |
-| Electronics | 2 controllers, 2 power supplies, 2 USB cables, 1 camera; servo cables included | $75.97 |
-| Mechanical parts | 4 bearings, 2 steel guide rods, 4 table clamps | $40.76 |
-| Fasteners | Screws and nuts; servo horn screws included with servos | $13.86 |
-| **Components subtotal** | | **$414.21** |
-| Printing material | 1 kg PET-CF17 + 0.25 kg PETG allowance | $54.98 |
-| **Total with printing material** | | **$469.19** |
+| [Servos](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $283.62 |
+| [Electronics](docs/bom.md#electronics) | 2 controllers, 2 power supplies, 2 USB cables, 1 wrist camera | $71.50 |
+| [Mechanical parts](docs/bom.md#mechanical-parts) | 4 bearings, 2 steel guide rods, 4 table clamps | $37.76 |
+| [Fasteners](docs/bom.md#fasteners) | Screws and nuts; specified servo-kit screws included | $11.21 |
+| **Components subtotal** | | **$404.09** |
+| [Printing material](docs/bom.md#printing-materials) | 0.6 kg PET-CF17 + 0.6 kg PETG allowance | $39.59 |
+| **Total with printing material** | | **$443.68** |
 
-Buying the listed full packs and filament spools from scratch costs about **$545.17**,
-including unused spares. Shipping, taxes, tools, a computer and a printer are excluded;
-optional O-rings are extra. Confirm supplier prices, variants and minimum order quantities
-before ordering. Re-slice the 3MF projects to check filament consumption.
+Buying the example full packs and filament spools from scratch costs about **$504**,
+including unused spares. These are reference estimates, not new supplier quotes.
+Shipping, taxes, tools, a computer, a printer, electricity and assembly labour are excluded.
+Confirm supplier prices, variants and minimum order quantities before ordering;
+re-slice the 3MF projects to check filament consumption.
 
 [Full BOM, purchase links and cost assumptions](docs/bom.md#estimated-kit-cost).
 
