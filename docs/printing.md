@@ -31,11 +31,13 @@ The [3MF projects](../models/README.md#3mf-slicer-projects) include saved part o
 plate layouts and support settings. Open them as projects in **Bambu Studio**, select your
 printer and filament, then slice and review the support preview.
 
-| Project | Saved filament profile | Layer height | Walls | Top / bottom layers | Infill |
-|---|---|---|:-:|:-:|---|
-| [Leader](../models/3mf/SO102_leader.3mf) | Bambu PETG-CF | 0.20 mm | 3 | 5 / 4 | 15 % gyroid |
-| [Follower arm](../models/3mf/SO102_follower.3mf) | Fiberon PET-CF17 | 0.20 mm | 6 | 6 / 6 | 30 % cubic |
-| [Follower gripper and board case](../models/3mf/SO102_follower_gripper_box.3mf) | Bambu PETG-CF | 0.20 mm | 6 | 6 / 6 | 30 % cubic |
+| Project | Saved filament profile | Layer height | Walls | Top / bottom layers | Infill | Weight | Time |
+|---|---|---|:-:|:-:|---|:-:|:-:|
+| [Leader](../models/3mf/SO102_leader.3mf) | Bambu PETG-CF | 0.20 mm | 3 | 5 / 4 | 15 % gyroid | 457 gr | 23 h |
+| [Follower arm](../models/3mf/SO102_follower.3mf) | Fiberon PET-CF17 | 0.20 mm | 6 | 6 / 6 | 30 % cubic | 583 gr | 23 h |
+| [Follower gripper and board case](../models/3mf/SO102_follower_gripper_box.3mf) | Bambu PETG-CF | 0.20 mm | 6 | 6 / 6 | 30 % cubic | 131 gr | 6,5 h |
+
+With these settings you will need: Fiberon PET-CF17 583 gr, Bambu PETG-CF 588 gr.
 
 All three save a **Bambu Lab A1, 0.4 mm nozzle** profile on a **256 × 256 mm** bed.
 Individual parts still fit a 180 × 180 mm bed, but the supplied layouts need to be split
