@@ -31,3 +31,9 @@ Your change is licensed under the licence that already covers the file.
 
 If a contribution contains material you did not create, say so in the pull request so it can be recorded in `NOTICE`.
 New files must be covered by `REUSE.toml`. CI runs `reuse lint` and fails otherwise.
+
+## Documentation languages
+
+Document descriptions are maintained in ten language folders under
+[`docs/i18n/`](docs/i18n/README.md). Follow the maintenance instructions there
+when changing an original document or contributing a translation.

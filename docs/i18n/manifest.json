@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "scope": "document-descriptions",
+  "locales": {
+    "en": "English",
+    "ru": "Русский",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "pt-BR": "Português (Brasil)",
+    "zh-CN": "简体中文",
+    "ja": "日本語",
+    "hi": "हिन्दी",
+    "ar": "العربية"
+  },
+  "sources": {
+    "CLAUDE.md": "c308044648505eac3e66d0d5767917bd1fd2807c62b915bc7887c922fb0bf012",
+    "CONTRIBUTING.md": "221ad6c7d1ed58a04fa59992e58f1bfc65188b5de970e99a0f7a94223f811282",
+    "DOCS-LICENSE.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+    "HARDWARE-LICENSE.txt": "6e471d647db50527d0c75ee5f1a55a74012ab177c73282bef0bdc7f6562b7ded",
+    "LICENSES/Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "LICENSES/CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+    "LICENSES/CERN-OHL-P-2.0.txt": "6e471d647db50527d0c75ee5f1a55a74012ab177c73282bef0bdc7f6562b7ded",
+    "LICENSING.md": "c7d89546756c37f6f7c25e690cb6f8be94054b6de2d119a793eb8d18bc971127",
+    "NOTICE": "4a561f6a36c0207141f6ddb34523f20419063746c295a288d8e830c9113b70b5",
+    "README.md": "91841f4f23eb02d4e55cdce264c30cc2cb5317dad5f7173a0954ce3c12d72099",
+    "REUSE.toml": "19655e0e3a9c9a251abfe240b043ffa89dfe7cc3dbceefac370227cde8fcb736",
+    "SOFTWARE-LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "docs/SO-ARM102_assembly_A5_v0.6.pdf": "0debea639765ebfbe72ee9b7439e736ccacb728d589162896ee448e3b9940daa",
+    "docs/assembly-guide.md": "f1037e86d0d72d9ca628688587bda51ce1b0416367a12dc2f71a78d2be628c7c",
+    "docs/bom.md": "cec7145261cdd80153cfc8f5c803e57a9e40144a10f9198e412e701d16e21c2b",
+    "docs/printing.md": "120e52533e908efd32337115dee28dd18e2515b864d166956ccd1b556dd3f2dc",
+    "docs/specifications.md": "f2caafc60d841847fcdc6c9fd59c3d561cc774cf787be308b7310d8c63165aea",
+    "models/README.md": "3b8cb9b21d89056a7098770b5286cfc330f90e1dd8182e75047eb49b3a7724e2"
+  }
+}

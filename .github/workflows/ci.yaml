@@ -16,3 +16,4 @@ jobs:
           python-version: "3.11"
       - run: pip install pre-commit
       - run: pre-commit run --all-files
+      - run: python .github/scripts/check_i18n.py
