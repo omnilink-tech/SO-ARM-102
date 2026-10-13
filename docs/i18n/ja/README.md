@@ -18,15 +18,15 @@
 
 **🎥 [プレビュービデオを見る](../../../assets/video/so-arm-102-preview.mp4)**·**🛒[キットを買う](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**オープンソースのリーダーロボットアーム＋フォローアームロボットアームキット 5 テレオペレーションと模倣学習のための グリップに加えて [Robonine](https://robonine.com) より硬く速い後継機として SO-ARM 101.**
+**遠隔操作と模倣学習のための、5 自由度のアームとグリッパーを備えたオープンソースのリーダー＋フォロワー型ロボットアームキットです。[Robonine](https://robonine.com) が SO-ARM 101 の後継機として設計し、剛性と速度を向上させました。**
 
 [![ハードウェア: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![ソフトウェア: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![ドキュメント: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![状態: v0.1予備リリース](https://img.shields.io/badge/Status-v0.1%20pre--release-orange.svg)](#-known-issues)
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
 
-**DIY予算: ~$404 コンポーネントのために ~$444 印刷材料も含めて** [BOMサマリー](#bill-of-materials) · [各種費用・購入リンク](docs/bom.md#estimated-kit-cost)
+**DIY製作の予算目安：部品のみで ~$404、造形材料を含めて ~$444。** [部品表の概要](#bill-of-materials) · [費用の内訳と購入リンク](docs/bom.md#estimated-kit-cost)
 
-> 部品をソースして自分で印刷するのではなく、 **[SO-ARM 102キットを買う](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**。
+> 部品調達や造形の手間を省きたい方は、**[SO-ARM 102キットを購入できます](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**。
 
 </div>
 
@@ -37,14 +37,14 @@
 
 |  | SO-ARM 101 | SO-ARM 102 |
 |---|---|---|
-| グリッパー | 角度式ジョー | パラレルグリップ, 85 mm スパン |
+| グリッパー | 回転開閉式の爪 | 平行グリッパー、開口幅 85 mm |
 | フレーム材料 | PLA | PET-CF (Fiberon PET-CF17 テスト済み) |
 | 構造 | 中実リンク | トポロジー最適化リンク |
 | ベース回転範囲 | 220° | **352°** |
 | 水平リーチ | 441 mm | **483 mm** |
-| グリップの偏向，300 g荷重¹ | 7.5 mm | **3.4–3.9 mm** |
-| 肩・肘速度 | 45 RPM (STS3215) | **75 RPM (STS3250)** |
-| 1 m のノイズ | 70 dB | **60 dB** |
+| 300 g 荷重時のグリッパー位置でのたわみ ¹ | 7.5 mm | **3.4–3.9 mm** |
+| 肩・肘関節の速度 | 45 RPM (STS3215) | **75 RPM (STS3250)** |
+| 距離 1 m での騒音 | 70 dB | **60 dB** |
 
 ¹ 両アームには印刷したサーボのダミーを使用しているため、比較対象はモーターではなくフレームです。詳しい結果と試験条件は [docs/specifications.md](docs/specifications.md) を参照してください。
 
@@ -59,24 +59,24 @@
 
 [![SO-ARM 102 プレビュー](../../../assets/video/so-arm-102-preview.gif)](../../../assets/video/so-arm-102-preview.mp4)
 
-*ビデオをクリックして 21 s*
+*クリックすると動画全編（21 s）を再生します。*
 
 </div>
 
 ---
 
 <a id="-configurations"></a>
-## 設定
+## 構成
 
 <a id="single-arm-one-leader--one-follower"></a>
-### 単一ロボットアーム：リーダーアーム１本＋フォローアーム１本
+### 単腕構成：リーダーアーム1本＋フォロワーアーム1本
 
-標準キットです。リーダーロボットアームを手で動かし、フォローアームがその動きを繰り返します。遠隔操作や模倣学習のための実演録音に使用してください。
+標準のキット構成です。リーダーアームを手で動かすと、フォロワーアームがその動きに追従します。遠隔操作や、模倣学習用のデモンストレーションの記録に使用できます。
 
 ![リーダー1台とフォロワー1台](../../../assets/images/renders/config-single-arm.jpg)
 
 <a id="bimanual-two-leaders--two-followers"></a>
-### 二手（にしゅ）：先頭2名、従者2名
+### 双腕構成：リーダーアーム2本＋フォロワーアーム2本
 
 2セットを並べて配置します。それぞれの手でリーダーアームを操作することで、フォロワーは物を受け渡したり、部品を保持して作業したり、両手を必要とする作業を行えます。
 
@@ -88,32 +88,32 @@
 | フォロワー | リーダー |
 |:-:|:-:|
 | ![フォロワーアーム](../../../assets/images/renders/follower.jpg) | ![リーダーアーム](../../../assets/images/renders/leader.jpg) |
-| パラレル・グリップ　手首カメラ 12 V | 5 V のトリガーを持つハンドル |
+| 平行グリッパー、手首カメラ、12 V | トリガー付きハンドル、5 V |
 
 ---
 
 <a id="-build-it-in-four-steps"></a>
 ## 4つのステップで作る
 
-準備済みのキットが好きですか？ **[SO-ARM 102キットを購入](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**。
+キットをご希望の方は、**[SO-ARM 102キットを購入できます](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**。
 
 <a id="1-print-the-parts"></a>
-### 1. 部分を印刷
+### 1. 部品を3Dプリントする
 
-個々の部品は 180 × 180 mm 3D プリンタビルドプレートに入ります。最大の部分は 160 mm 長さです。提供された 3MF プレートレイアウトは 256 × 256 mm 3D プリンタビルドプレートを使用します。
+各部品は 180 × 180 mm の造形ベッドに収まります。最大の部品の長さは 160 mm です。付属の 3MF ファイルのプレート配置は、256 × 256 mm の造形ベッドを想定しています。
 
-- 3MF スライサープロジェクトの保存された方向と支援設定: [`models/3mf/`](../../../models/3mf) - [リーダーロボットアーム](../../../models/3mf/SO102_leader.3mf), [フォローアーム](../../../models/3mf/SO102_follower.3mf), [フォローアームグリップとボードケース](../../../models/3mf/SO102_follower_gripper_box.3mf)
+- 造形方向とサポート設定を保存した 3MF スライサープロジェクト：[`models/3mf/`](../../../models/3mf) — [リーダーアーム](../../../models/3mf/SO102_leader.3mf)、[フォロワーアーム](../../../models/3mf/SO102_follower.3mf)、[フォロワーのグリッパーと基板ケース](../../../models/3mf/SO102_follower_gripper_box.3mf)
 - プロジェクトの内容とプリンタプロファイル: [models/README.md](models/README.md)
-- STL ファイル、スライス準備: [`models/stl/`](../../../models/stl)
+- スライス用の STL ファイル：[`models/stl/`](../../../models/stl)
 - STEP ソース: [`models/step/`](../../../models/step)
 - 材料、設定、部品数量: [docs/printing.md](docs/printing.md)
 
 以前の試験用アーム設定では、グリッパーを除くアーム部品のスライサー推定値はフィラメント約 500 g、印刷時間約 21 h でした。現在の推定値は 3MF プロジェクトを再スライスして確認してください。
 
 <a id="2-buy-the-hardware"></a>
-### 2。ハードウェアを購入
+### 2. ハードウェアを購入する
 
-コンポーネントを [BOM 概要](#bill-of-materials) と [購入リンク付きの完全な BOM](docs/bom.md) からソースします。コンポーネントに対する予算 **$404.09**、または印刷材料を含む **$443.68**、輸送と税金前です。
+部品は、[部品表の概要](#bill-of-materials) と [購入リンク付きの部品表全体](docs/bom.md) を参照して調達してください。予算の目安は部品のみで **$404.09**、造形材料を含めて **$443.68** です。送料と税金は含みません。
 
 | アーム | サーボ | コントローラー | 電源 |
 |---|---|---|---|
@@ -123,36 +123,36 @@
 > ⚠️ **リーダーアームは 5 V、フォロワーアームは 12 V で動作します。** 電源を取り違えないでください。
 
 <a id="3-assemble"></a>
-### 3. アセンブリ
+### 3. 組み立てる
 
 - 印刷可能なブックレット、36ページA5：[docs/SO-ARM102_assembly_A5_v0.6.pdf](../../SO-ARM102_assembly_A5_v0.6.pdf)
-- 部品とファスナーのステップリスト: [docs/assembly-guide.md](docs/assembly-guide.md)
+- 各工程で使用する部品と締結部品の一覧：[docs/assembly-guide.md](docs/assembly-guide.md)
 
-ツール：六角キー 1.5 mm (M2 スクリュー) と 2 mm (M3 スクリュー)。
+工具：1.5 mm（M2 ねじ用）と 2 mm（M3 ねじ用）の六角レンチ。
 
 <a id="4-set-up-the-software"></a>
-### 4。ソフトウェアを設定します
+### 4. ソフトウェアを設定する
 
-サーボID、校正とレッスン: **[lab.robonine.com](https://lab.robonine.com)**ロボットアームは LeRobot SO-101 リーダーロボットアームとフォローアームのワークフローです
+サーボID、キャリブレーション、レッスンについては **[lab.robonine.com](https://lab.robonine.com)** を参照してください。このアームは LeRobot の SO-101 リーダー／フォロワー用ワークフローを使用します。
 
 ---
 
 <a id="bill-of-materials"></a>
 ## 部品表
 
-１）リードロボットアーム１本＋フォローロボットアーム１本の数量と参考費用：
+**リーダーアーム1本＋フォロワーアーム1本**に必要な数量と参考費用：
 
 | カテゴリ/購入リンク | キット内容 | 合計 (USD) |
 |---|---|---:|
 | [サーボ](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $283.62 |
 | [電子部品](docs/bom.md#electronics) | 2 コントローラ、2 電源、2 USBケーブル、1 手首カメラ | $71.50 |
 | [機械部品](docs/bom.md#mechanical-parts) | 軸受4、鋼製ガイドロッド2、テーブルクランプ4 | $37.76 |
-| [締結部品](docs/bom.md#fasteners) | ねじとナット;特定サーボモーターキットねじを含む | $11.21 |
+| [締結部品](docs/bom.md#fasteners) | ねじとナット（指定のサーボキット付属ねじを含む） | $11.21 |
 | **部品小計** |  | **$404.09** |
 | [印刷素材](docs/bom.md#printing-materials) | 0.6 kg PET-CF17 + 0.6 kg PETG 割当 | $39.59 |
 | **印刷材料込み合計** |  | **$443.68** |
 
-例のフルパッケージとフィラメントスプールを買う場合、未使用のスペアパーツを含めたコストは **$504**です。これらは参考値であり、新しい供給者からの提案ではありません。輸送、税金、工具、コンピュータ、プリンタ、電気、組立労働は除外されます。注文する前に供給者価格、バリエーション、最小注文数量を確認してください。 3MFプロジェクトを 3D 印刷スライサーで再スライスし、フィラメント消費量をチェックしてください。
+掲載例の部品パックとフィラメントのスプールをすべて新規に購入する場合、使用せずに残る予備部品も含めて約 **$504** です。これらは参考見積もりであり、供給元から新たに取得した見積書ではありません。送料、税金、工具、コンピュータ、プリンタ、電気代、組立作業費は含みません。注文前に供給元の価格、製品バリエーション、最低注文数量を確認し、3MF プロジェクトを再スライスしてフィラメント使用量を確認してください。
 
 [部品表の詳細、購入リンク、費用の前提条件](docs/bom.md#estimated-kit-cost)。
 
@@ -161,14 +161,14 @@
 <a id="urdf-export"></a>
 ## URDF エクスポート
 
-現在の独立したエクスポートは [`simulation/urdf/`](../../../simulation/urdf): [URDF](../../../simulation/urdf/so_arm_102.urdf) · [Xacro](../../../simulation/urdf/so_arm_102.xacro) にあります。 `meshes/` を説明ファイルの隣に保存してください。メッシュパスはこのフォルダに対するものです。
+現在の単体で使用できるエクスポートは [`simulation/urdf/`](../../../simulation/urdf) にあります：[URDF](../../../simulation/urdf/so_arm_102.urdf) · [Xacro](../../../simulation/urdf/so_arm_102.xacro)。`meshes/` はロボット記述ファイルと同じフォルダ内に置いてください。メッシュのパスはこのフォルダからの相対パスです。
 
-- **ビジュアル：** STL 衝突は8つのリンクに 独立して回転するボックスが
-- **質量推定:**PLA, 30% フィル、 6 周辺警備 6 上下の層が 0.2 mm レイヤーの高さと**0.40 mm 押出し幅**これらはシミュレーションの仮定であり、使用する [印刷ガイド](docs/printing.md) 製造設定に使うのです
+- **表示用形状：** STL メッシュ。**衝突判定用形状：** 全8リンクに、それぞれ形状に合わせて寸法と向きを設定した直方体を使用しています。
+- **質量推定：** PLA、インフィル率 30%、外周壁 6 周、上面・下面それぞれ 6 層、積層ピッチ 0.2 mm、**押出し幅 0.40 mm** を想定しています。これらはシミュレーション上の仮定です。実際の造形設定は [造形ガイド](docs/printing.md) を参照してください。
 - **ハードウェアの質量：**モーター6個は各 70 g、ベースのベアリングは 105 g です。モデルの推定総質量は**0.889 kg** です。
-- **グリップ：** `clamp2` は乗数 `-1` を持つ `clamp1` を模倣します。
+- **グリッパー：** `clamp2` は `clamp1` に倍率 `-1` で連動する mimic 関節です。
 
-[エクスポート設定](../../../simulation/urdf/export_settings.json) と [質量プロパティ](../../../simulation/urdf/mass_properties.json) は仮定を記録します。形状と慣性チェックは [export_verification.json](../../../simulation/urdf/export_verification.json).
+[エクスポート設定](../../../simulation/urdf/export_settings.json) と [質量特性](../../../simulation/urdf/mass_properties.json) に前提条件を記録しています。形状と慣性の検証結果は [export_verification.json](../../../simulation/urdf/export_verification.json) に記録しています。
 
 ---
 
@@ -177,23 +177,23 @@
 
 ```
 ├── models/
-│   ├── 3mf/                 # スライサープロジェクト：リーダロボットアーム，フォローラロボットアーム，グリップ，ボードケース
+│   ├── 3mf/                 # スライサープロジェクト：リーダー、フォロワー、グリッパー、基板ケース
 │   ├── stl/                 # 印刷可能なメッシュ
 │   │   ├── common/          # 両方のロボットアームに使われる部品
-│   │   ├── follower/        # パラレルグリップ カメラマウント ボードケース
-│   │   └── leader/          # ハンドル トリガー 手首巻き ボードケース
+│   │   ├── follower/        # 平行グリッパー、カメラマウント、基板ケース
+│   │   └── leader/          # ハンドル、トリガー、手首ロール、基板ケース
 │   └── step/                # CAD ソース、stl/と同じレイアウト
 ├── docs/
 │   ├── printing.md          # 素材、スライサーの設定、量
 │   ├── bom.md               # 部品表
-│   ├── assembly-guide.md    # 部品・ファスナーのステップリスト
-│   ├── specifications.md    # 形状，サーボモータ，測定結果と比較した。 SO-ARM 101
+│   ├── assembly-guide.md    # 各工程の部品と締結部品の一覧
+│   ├── specifications.md    # 寸法・形状、サーボ、SO-ARM 101 との実測比較
 │   └── SO-ARM102_assembly_A5_v0.6.pdf
 ├── assets/
 │   ├── images/              # 写真、レンダリング、ブックレットページ、テスト写真
 │   └── video/               # 動画とGIFのプレビュー
 ├── LICENSING.md             # ファイルに適用されるライセンス
-└── NOTICE                   # 第三者の著作権
+└── NOTICE                   # 第三者の著作物の帰属表示
 ```
 
 ---
@@ -204,23 +204,23 @@
 これは最初の公開リリースです。独立したテストビルドで以下の問題が発見されました。修正中で、次のリリースで解決します。
 
 1. **リリース一式にはモデルが2つ不足しているとの報告があります。** うち1つは判明しており、カメラホルダーの STEP ソースがまだありません。
-2. **M2スクリューはいくつかの場所で手に入りにくいです。** 数個戦うことを期待してください。
+2. **一部の M2 ねじは工具が届きにくい位置にあります。** 取り付けに手間がかかる箇所があります。
 3. **グリッパーのクランプはカーボンロッド上で動きが固くなります。** クランプの穴は 6.1 mm に合わせてあります。ロッドの直径は供給元により異なるため、組立前に適合を確認してください。
-4. サーボモータケーブルの長さを確認するために，各接続部を閉じる前に，特にベースから肩までをチェックした。
-5. ブックレットの組み立て順序が２箇所不明瞭です 固定する前に２段階読んでください。
+4. 各関節を閉じる前に、**サーボケーブルの長さを確認してください。** 特にベースから肩までの区間に注意してください。
+5. **冊子の組立順序には、作業しにくい箇所が2か所あります。** 部品を固定する前に、2工程先まで読んでください。
 6. **リーダーの関節に緩さを感じる場合があります。** 各サーボとホーンの間に 8 × 2 mm のゴム製 O リングを入れると、滑らかで静かな摩擦が得られます。関節 1–4 はサーボごとに2個、関節 5–6 は1個使用します。
 
-他に何か見つけましたか？ [問題を開く](https://github.com/roboninecom/SO-ARM-102/issues) をお願いします。
+ほかにも問題が見つかった場合は、[issue を作成](https://github.com/roboninecom/SO-ARM-102/issues) してください。
 
 ---
 
 <a id="-related-projects"></a>
 ## 関連プロジェクト
 
-- [SO-ARM100/101 Parallel Gripper](https://github.com/roboninecom/SO-ARM100-101-Parallel-Gripper), SO-ARM 102 グリップが成長したグリップ
+- [SO-ARM100/101 Parallel Gripper](https://github.com/roboninecom/SO-ARM100-101-Parallel-Gripper) — SO-ARM 102 のグリッパーの設計元となったグリッパー
 - [SO-ARM101](https://github.com/TheRobotStudio/SO-ARM100) — TheRobotStudio による、この設計の先行モデル
-- [スマートシリアルサーボモータの実用的な比較](https://robonine.com/smart-serial-servo-motor-comparison-robotics/)サーボモーターの選択に関わるテストは
-- [ロボットアーム用フィラメントの選定](https://robonine.com/choosing-filament-for-robotic-arm-applications/)テストの背後には PET-CF
+- [スマートシリアルサーボの実用比較](https://robonine.com/smart-serial-servo-motor-comparison-robotics/) — サーボ選定の根拠となった試験
+- [ロボットアーム用フィラメントの選定](https://robonine.com/choosing-filament-for-robotic-arm-applications/) — PET-CF 採用の根拠となった試験
 
 ---
 
@@ -254,7 +254,7 @@
 
 <div align="center">
 
-**ロボットコミュニティ向けに [Robonine](https://robonine.com)** によって作成
+**[Robonine](https://robonine.com) がロボティクスコミュニティのために開発しました。**
 
 </div>
 <!-- /translated-content -->
