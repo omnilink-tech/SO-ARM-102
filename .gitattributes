@@ -1,7 +1,7 @@
 *.STEP binary
 *.step binary
 *.stl binary
-*.STL binary
+*.STL filter=lfs diff=lfs merge=lfs -text
 *.pdf binary
 *.jpg binary
 *.mp4 binary
