@@ -133,7 +133,9 @@
 <a id="4-set-up-the-software"></a>
 ### 4 。 设置软件
 
-伺服 ID、校准和教程: **[ lab.robonine.com ](https://lab.robonine.com)** 。 机器人臂使用 LeRobot SO-101 领导机器人臂/跟随机器人臂工作流程。
+伺服 ID、校准和教程: **[ lab.robonine.com ](https://lab.robonine.com)**.
+使用 SO-ARM 102 从动臂插件和标准类型 `so101_leader`。
+**[LeRobot 安装与配置](docs/lerobot.md)**.
 
 ---
 

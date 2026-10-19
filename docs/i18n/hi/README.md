@@ -133,7 +133,9 @@
 <a id="4-set-up-the-software"></a>
 ### 4. सॉफ्टवेयर सेटअप करें
 
-सर्वो आईडी, कैलिब्रेशन तथा पाठ: **[lab.robonine.com](https://lab.robonine.com)**. रोबोट आर्म LeRobot SO-101 लीडर रोबोट आर्म/ फॉलोअर रोबोट आर्म कार्यप्रणाली का प्रयोग करता है.
+सर्वो आईडी, कैलिब्रेशन तथा पाठ: **[lab.robonine.com](https://lab.robonine.com)**.
+SO-ARM 102 फॉलोअर प्लगइन का उपयोग मानक `so101_leader` प्रकार के साथ करें।
+**[LeRobot इंस्टॉलेशन और सेटअप](docs/lerobot.md)**.
 
 ---
 

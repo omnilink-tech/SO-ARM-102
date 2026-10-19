@@ -133,7 +133,9 @@
 <a id="4-set-up-the-software"></a>
 ### 4. ソフトウェアを設定する
 
-サーボID、キャリブレーション、レッスンについては **[lab.robonine.com](https://lab.robonine.com)** を参照してください。このアームは LeRobot の SO-101 リーダー／フォロワー用ワークフローを使用します。
+サーボID、キャリブレーション、レッスンについては **[lab.robonine.com](https://lab.robonine.com)**.
+SO-ARM 102 フォロワープラグインと標準の `so101_leader` 型を使用してください。
+**[LeRobot のインストールと設定](docs/lerobot.md)**.
 
 ---
 

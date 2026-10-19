@@ -133,7 +133,9 @@ Herramientas: llaves hexagonales 1.5 mm (M2 tornillos) y 2 mm (M3 tornillos).
 <a id="4-set-up-the-software"></a>
 ### 4. Configurar el software
 
-Servo IDs, calibración y lecciones: **[lab.robonine.com](https://lab.robonine.com)** El brazo robótico utiliza el flujo de trabajo LeRobot SO-101 brazo robot líder/brazo robot seguidor.
+Servo IDs, calibración y lecciones: **[lab.robonine.com](https://lab.robonine.com)**.
+Utilice el plugin del seguidor SO-ARM 102 con el tipo estándar `so101_leader`.
+**[Instalación y configuración de LeRobot](docs/lerobot.md)**.
 
 ---
 
