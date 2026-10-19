@@ -15,56 +15,56 @@
   },
   "documents": {
     "README.md": {
-      "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+      "source_sha256": "2f93d32af3b4959a6c315b2672e4c1f75639e5643f2086f282878b653a1f8f77",
       "translations": {
         "en": {
           "path": "docs/i18n/en/README.md",
-          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "source_sha256": "2f93d32af3b4959a6c315b2672e4c1f75639e5643f2086f282878b653a1f8f77",
           "review": "source-copy"
         },
         "ru": {
           "path": "docs/i18n/ru/README.md",
-          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "source_sha256": "2f93d32af3b4959a6c315b2672e4c1f75639e5643f2086f282878b653a1f8f77",
           "review": "structural-checks-only"
         },
         "es": {
           "path": "docs/i18n/es/README.md",
-          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "source_sha256": "2f93d32af3b4959a6c315b2672e4c1f75639e5643f2086f282878b653a1f8f77",
           "review": "structural-checks-only"
         },
         "fr": {
           "path": "docs/i18n/fr/README.md",
-          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "source_sha256": "2f93d32af3b4959a6c315b2672e4c1f75639e5643f2086f282878b653a1f8f77",
           "review": "structural-checks-only"
         },
         "de": {
           "path": "docs/i18n/de/README.md",
-          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "source_sha256": "2f93d32af3b4959a6c315b2672e4c1f75639e5643f2086f282878b653a1f8f77",
           "review": "structural-checks-only"
         },
         "pt-BR": {
           "path": "docs/i18n/pt-BR/README.md",
-          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "source_sha256": "2f93d32af3b4959a6c315b2672e4c1f75639e5643f2086f282878b653a1f8f77",
           "review": "structural-checks-only"
         },
         "zh-CN": {
           "path": "docs/i18n/zh-CN/README.md",
-          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "source_sha256": "2f93d32af3b4959a6c315b2672e4c1f75639e5643f2086f282878b653a1f8f77",
           "review": "structural-checks-only"
         },
         "ja": {
           "path": "docs/i18n/ja/README.md",
-          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "source_sha256": "2f93d32af3b4959a6c315b2672e4c1f75639e5643f2086f282878b653a1f8f77",
           "review": "structural-checks-only"
         },
         "hi": {
           "path": "docs/i18n/hi/README.md",
-          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "source_sha256": "2f93d32af3b4959a6c315b2672e4c1f75639e5643f2086f282878b653a1f8f77",
           "review": "structural-checks-only"
         },
         "ar": {
           "path": "docs/i18n/ar/README.md",
-          "source_sha256": "274d58981c744bb389dc906b7eb00579b961e114460437f54ab8cc0cb0aea9c1",
+          "source_sha256": "2f93d32af3b4959a6c315b2672e4c1f75639e5643f2086f282878b653a1f8f77",
           "review": "structural-checks-only"
         }
       }
@@ -618,6 +618,61 @@
           "review": "structural-checks-only"
         }
       }
+    },
+    "docs/lerobot.md": {
+      "translations": {
+        "en": {
+          "path": "docs/i18n/en/docs/lerobot.md",
+          "source_sha256": "fc0822016ecfeb0fe2403716b35e66889d87f54b6bb77b10028a7ec2724e3937",
+          "review": "source-copy"
+        },
+        "ru": {
+          "path": "docs/i18n/ru/docs/lerobot.md",
+          "source_sha256": "fc0822016ecfeb0fe2403716b35e66889d87f54b6bb77b10028a7ec2724e3937",
+          "review": "structural-checks-only"
+        },
+        "es": {
+          "path": "docs/i18n/es/docs/lerobot.md",
+          "source_sha256": "fc0822016ecfeb0fe2403716b35e66889d87f54b6bb77b10028a7ec2724e3937",
+          "review": "structural-checks-only"
+        },
+        "fr": {
+          "path": "docs/i18n/fr/docs/lerobot.md",
+          "source_sha256": "fc0822016ecfeb0fe2403716b35e66889d87f54b6bb77b10028a7ec2724e3937",
+          "review": "structural-checks-only"
+        },
+        "de": {
+          "path": "docs/i18n/de/docs/lerobot.md",
+          "source_sha256": "fc0822016ecfeb0fe2403716b35e66889d87f54b6bb77b10028a7ec2724e3937",
+          "review": "structural-checks-only"
+        },
+        "pt-BR": {
+          "path": "docs/i18n/pt-BR/docs/lerobot.md",
+          "source_sha256": "fc0822016ecfeb0fe2403716b35e66889d87f54b6bb77b10028a7ec2724e3937",
+          "review": "structural-checks-only"
+        },
+        "zh-CN": {
+          "path": "docs/i18n/zh-CN/docs/lerobot.md",
+          "source_sha256": "fc0822016ecfeb0fe2403716b35e66889d87f54b6bb77b10028a7ec2724e3937",
+          "review": "structural-checks-only"
+        },
+        "ja": {
+          "path": "docs/i18n/ja/docs/lerobot.md",
+          "source_sha256": "fc0822016ecfeb0fe2403716b35e66889d87f54b6bb77b10028a7ec2724e3937",
+          "review": "structural-checks-only"
+        },
+        "hi": {
+          "path": "docs/i18n/hi/docs/lerobot.md",
+          "source_sha256": "fc0822016ecfeb0fe2403716b35e66889d87f54b6bb77b10028a7ec2724e3937",
+          "review": "structural-checks-only"
+        },
+        "ar": {
+          "path": "docs/i18n/ar/docs/lerobot.md",
+          "source_sha256": "fc0822016ecfeb0fe2403716b35e66889d87f54b6bb77b10028a7ec2724e3937",
+          "review": "structural-checks-only"
+        }
+      },
+      "source_sha256": "fc0822016ecfeb0fe2403716b35e66889d87f54b6bb77b10028a7ec2724e3937"
     }
   }
 }

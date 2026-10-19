@@ -133,7 +133,9 @@ Werkzeuge: Sechskantschlüssel 1.5 mm (M2 Schrauben) und 2 mm (M3 Schrauben).
 <a id="4-set-up-the-software"></a>
 ### 4. Die Software einrichten
 
-Servo-IDs, Kalibrierung und Lektionen: **[lab.robonine.com](https://lab.robonine.com)** Der Roboterarm verwendet den LeRobot SO-101 Leader Roboterarm/Follower Roboterarm Workflow.
+Servo-IDs, Kalibrierung und Lektionen: **[lab.robonine.com](https://lab.robonine.com)**.
+Verwenden Sie das SO-ARM 102 Follower-Plugin mit dem Standardtyp `so101_leader`.
+**[LeRobot installieren und einrichten](docs/lerobot.md)**.
 
 ---
 

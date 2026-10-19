@@ -133,7 +133,9 @@ Ferramentas: chaves hexagonais 1.5 mm (M2 parafusos) e 2 mm (M3 parafusos).
 <a id="4-set-up-the-software"></a>
 ### 4. Configurar o software
 
-IDs de servo, calibração e lições: **[lab.robonine.com](https://lab.robonine.com)** O braço do robô usa o fluxo de trabalho LeRobot SO-101 braço do robô líder/braço do robô seguidor.
+IDs de servo, calibração e lições: **[lab.robonine.com](https://lab.robonine.com)**.
+Use o plugin do seguidor SO-ARM 102 com o tipo padrão `so101_leader`.
+**[Instalação e configuração do LeRobot](docs/lerobot.md)**.
 
 ---
 

@@ -133,7 +133,9 @@
 <a id="4-set-up-the-software"></a>
 ### 4. Настройте ПО
 
-Назначение ID сервоприводов, калибровка и уроки: **[lab.robonine.com](https://lab.robonine.com)**. Используется процесс настройки ведущей и ведомой рук SO-101 в LeRobot.
+Назначение ID сервоприводов, калибровка и уроки: **[lab.robonine.com](https://lab.robonine.com)**.
+Используйте плагин ведомой руки SO-ARM 102 со стандартным типом `so101_leader`.
+**[Установка и настройка LeRobot](docs/lerobot.md)**.
 
 ---
 

@@ -135,7 +135,9 @@
 <a id="4-set-up-the-software"></a>
 ### 4. تثبيت البرمجيات
 
-هويات السيرفو، المعايرة والدروس: **[lab.robonine.com](https://lab.robonine.com)**. يستخدم الذراع الروبوتي تدفق العمل LeRobot SO-101 الذراع الروبوتي الرائد/ذراع الروبوت المتتبع.
+هويات السيرفو، المعايرة والدروس: **[lab.robonine.com](https://lab.robonine.com)**.
+استخدم إضافة الذراع التابع SO-ARM 102 مع النوع القياسي `so101_leader`.
+**[تثبيت LeRobot وإعداده](docs/lerobot.md)**.
 
 ---
 

@@ -133,7 +133,9 @@ Tools: hex keys 1.5 mm (M2 screws) and 2 mm (M3 screws).
 <a id="4-set-up-the-software"></a>
 ### 4. Set up the software
 
-Servo IDs, calibration and lessons: **[lab.robonine.com](https://lab.robonine.com)**. The arm uses the LeRobot SO-101 leader/follower workflow.
+Servo IDs, calibration and lessons: **[lab.robonine.com](https://lab.robonine.com)**.
+Use the SO-ARM 102 follower plugin with the standard `so101_leader` type.
+**[LeRobot installation and setup](docs/lerobot.md)**.
 
 ---
 

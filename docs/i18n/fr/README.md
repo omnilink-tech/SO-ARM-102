@@ -133,7 +133,9 @@ Outils: clés hexagonales 1.5 mm (M2 vis) et 2 mm (M3 vis).
 <a id="4-set-up-the-software"></a>
 ### 4. Configurer le logiciel
 
-Servo IDs, calibration et leçons: **[lab.robonine.com](https://lab.robonine.com)** Le bras robotique utilise le flux de travail LeRobot SO-101 bras robotique leader/bras robotique suiveur.
+Servo IDs, calibration et leçons: **[lab.robonine.com](https://lab.robonine.com)**.
+Utilisez le plugin du suiveur SO-ARM 102 avec le type standard `so101_leader`.
+**[Installation et configuration de LeRobot](docs/lerobot.md)**.
 
 ---
 
