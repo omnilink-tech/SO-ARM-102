@@ -9,15 +9,15 @@ Printed parts are listed separately in [printing.md](printing.md).
 
 ## Estimated kit cost
 
-**One leader + one follower: $404 in components, or $444 including printing material.**
+**One leader + one follower: $383 in components, or $444 including printing material.**
 
 | Category | Cost of quantities used (USD) | Buy full packs / spools (USD) |
 |---|---:|---:|
 | Servos (12 pcs) | $283.62 | $283.62 |
-| Electronics, camera and power supplies | $71.50 | $71.50 |
-| Bearings, steel guide rods and table clamps | $37.76 | $49.7 |
-| Fasteners | $11.21 | $32.9 |
-| **Components subtotal** | **$404.09** | **$437.7** |
+| Electronics, camera and power supplies | $50.50 | $50.50 |
+| Bearings, steel guide rods and table clamps | $37.76 | $49.70 |
+| Fasteners | $11.21 | $32.90 |
+| **Components subtotal** | **$383.09** | **$416.70** |
 | Printing material: 0.6 kg PET-CF17 + 0.6 kg PETG | $39.59 | $66.0 |
 | **Total with printing material** | **$443.68** | **$503.7** |
 
@@ -65,13 +65,12 @@ Totals: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V.
 
 | Item | Qty | Notes | Buy US | Unit cost (US) | Buy US | Unit cost (US) | Buy EU | Unit cost (EU) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Waveshare Bus Servo Driver HAT | 1 | Follower controller | [Amazon](https://www.amazon.com/Serial-Bus-Servo-Driver-Board/dp/B0D83QMQ4N) | $26.60 | [Aliexpress](https://www.aliexpress.us/item/3256809887200297.html) | $28.90 | [Amazon EU](https://www.amazon.fr/-/en/Waveshare-Bus-Servo-Driver-Integrates/dp/B0D5VF6CK3/) | €30.00 | $26.60 |
-| Waveshare Bus Servo Adapter | 1 | Leader controller | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Applicable-Integrate/dp/B0CJ6TP3TP/) | $13.00 | [Aliexpress](https://www.aliexpress.us/item/3256810343532716.html) | $7.40 | [Amazon EU](https://www.amazon.fr/-/en/Serial-Integrates-Control-Circuit-Support/dp/B0CJBKQ8LJ/) | €11.90 | $7.40 |
-| Power supply 12V DC (12V 5A power supply 5.5 2.5mm) | 1 | Follower. 60W / 5A or more recommended. The arm peaked at 3.3A under a 300g load. Match the HAT's connector (5.5x2.5mm). | [Amazon](https://www.amazon.com/Universal-100-240V-5-5x2-5mm-Compatible-Aquarium/dp/B0F8974RZR/) | $9.00 | [Aliexpress](https://www.aliexpress.us/item/3256812479836615.html) | $8.40 | [Amazon EU](https://www.amazon.fr/Qilomor-12V-5A-Charger-Universal/dp/B0H8PB93M4/) | €12.00 | $8.40 |
+| Waveshare Bus Servo Adapter | 2 | Leader controller | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Applicable-Integrate/dp/B0CJ6TP3TP/) | $13.00 | [Aliexpress](https://www.aliexpress.us/item/3256810343532716.html) | $7.40 | [Amazon EU](https://www.amazon.fr/-/en/Serial-Integrates-Control-Circuit-Support/dp/B0CJBKQ8LJ/) | €11.90 | $14.80 |
+| Power supply 12V DC (12V 5A power supply 5.5 2.1mm) | 1 | Follower. 60W / 5A or more recommended. The arm peaked at 3.3A under a 300g load. Match the Adapter's connector (5.5x2.1mm). | [Amazon](https://www.amazon.com/Power-Supply-Adapter-5-5x2-1-2-5mm/dp/B0C3CJF313/) | $10.00 | [Aliexpress](https://www.aliexpress.us/item/3256812113231032.html) | $6.60 | [Amazon EU](https://www.amazon.fr/-/en/zstg-Universal-Power-Supply-Connector/dp/B0GTLSRM91/) | €12.00 | $6.60 |
 | Power supply 5V DC (5V 2A power supply 5.5 2.1mm) | 1 | Leader. Match the Adapter's connector (5.5x2.1mm). | [Amazon](https://www.amazon.com/MTDZKJG-Adapter-100V-240V-Transformer-Security/dp/B0BZP65GRW/) | $6.20 | [Aliexpress](https://www.aliexpress.us/item/3256812479558626.html) | $4.10 | [Amazon EU](https://www.amazon.fr/5V-2A-Supply-DC-Adapter/dp/B0GDXFRYJS/) | €11.00 | $4.10 |
 | USB-C cable, 1.5 m (USB A to USB C data cable 1.5m) | 2 | One per controller. Choose a data cable, not a charging-only cable. | [Amazon](https://www.amazon.com/Data-Cable-1-5ft-10Gbps-Transfer/dp/B0FMJTHRCM/) | $6.00 | [Aliexpress](https://www.aliexpress.us/item/3256812299430938.html) | $3.00 | [Amazon EU](https://www.amazon.fr/-/en/10Gbps-Transfer-Charging-Samsung-External/dp/B0DHZ1R8FQ/) | €7.00 | $6.00 |
 | USB camera (OV2735, 1080P USB Camera Module, 2MP 1920x1080, UVC Camera, 2.8 or 3.0 mm lens) | 1 | Wrist camera on the follower gripper. The prototype used an OV2735 module. Check module dimensions and mounting holes against the camera holder. | [Amazon](https://www.amazon.com/innomaker-Computer-Raspberry-Support-Windows/dp/B0CNCSFQC1/) | $19.00 | [Aliexpress](https://www.aliexpress.us/item/3256804452094739.html) | $26.10 | [Amazon EU](https://www.amazon.fr/InnoMaker-Raspberry-Compatible-Windows-Android/dp/B0CNCSFQC1/) | €21.00 | $19.00 |
-| **Total** | | | | | | | | | **$71.50** |
+| **Total** | | | | | | | | | **$50.50** |
 
 ## Mechanical parts
 
@@ -108,7 +107,7 @@ Black fasteners match the look of the renders but are not required.
 
 | Material | Use | Purchase link | Price / budget (USD) | Total (USD) |
 |---|---|---|---|---:|
-| Fiberon PET-CF17 | Tested material for the arm links, bases and servo holders | [Polymaker](https://shop.polymaker.com/products/fiberon-pet-cf17) | $44.99 / 1 kg | $26.99 (0.6 kg) |
+| Fiberon PET-CF17 | Tested material for the arm links and servo holders | [Polymaker](https://shop.polymaker.com/products/fiberon-pet-cf17) | $44.99 / 1 kg | $26.99 (0.6 kg) |
 | PETG or PET-CF | Gripper clamps, covers, leader handle and trigger | [Amazon](https://www.amazon.com/Bambu-Printer-Filament-1-75mm-Spool/dp/B0GS568LQ1/) | PETG: $21.00 / 1 kg | $12.60 (0.6 kg) |
 | **Total** | | | | **$39.59** |
 
