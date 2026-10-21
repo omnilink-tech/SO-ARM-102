@@ -9,17 +9,17 @@ Printed parts are listed separately in [printing.md](printing.md).
 
 ## Estimated kit cost
 
-**One leader + one follower: $383 in components, or $417 including printing material.**
+**One leader + one follower: $340 in components, or $374 including printing material.**
 
 | Category | Cost of quantities used (USD) | Buy full packs / spools (USD) |
 |---|---:|---:|
-| Servos (12 pcs) | $283.62 | $283.62 |
+| Servos (12 pcs) | $240.72 | $240.72 |
 | Electronics, camera and power supplies | $50.50 | $50.50 |
 | Bearings, steel guide rods and table clamps | $37.76 | $49.70 |
 | Fasteners | $11.24 | $28.60 |
-| **Components subtotal** | **$383.12** | **$411.72** |
+| **Components subtotal** | **$340.22** | **$368.82** |
 | Printing material: 0.4 kg PET-CF17 + 0.75 kg PETG | $33.75 | $66.0 |
-| **Total with printing material** | **$416.87** | **$477.72** |
+| **Total with printing material** | **$373.97** | **$434.82** |
 
 The **Total (USD)** column is the cost of the quantity needed for one kit,
 using the reference offer behind each existing line total (not the sum of supplier offers).
@@ -39,26 +39,26 @@ The full-pack column includes unused spares, 0.5 kg PET-CF17 spool and
 
 | Joint | ID | Follower | Leader |
 |---|:-:|---|---|
-| Base rotation | 1 | ST-3235-С001 | ST-3215-C044, 1:191 |
-| Shoulder lift | 2 | ST-3250-С002 | ST-3215-C044, 1:191 |
-| Elbow flex | 3 | ST-3250-С002 | ST-3215-C044, 1:191 |
-| Wrist flex | 4 | ST-3235-С001 | ST-3215-C044, 1:191 |
-| Wrist roll | 5 | ST-3215-C049, 1:191 | ST-3215-C044, 1:191 |
-| Gripper / Trigger | 6 | ST-3215-C049, 1:191 | ST-3215-C044, 1:191 |
+| Base rotation | 1 | ST-3235-С001 | ST-3215-C066, 1:191 |
+| Shoulder lift | 2 | ST-3250-С002 | ST-3215-C066, 1:191 |
+| Elbow flex | 3 | ST-3250-С002 | ST-3215-C066, 1:191 |
+| Wrist flex | 4 | ST-3235-С001 | ST-3215-C066, 1:191 |
+| Wrist roll | 5 | ST-3215-C049, 1:191 | ST-3215-C066, 1:191 |
+| Gripper / Trigger | 6 | ST-3215-C049, 1:191 | ST-3215-C066, 1:191 |
 
 Totals: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V. All are Feetech TTL serial bus servos.
 
 | Servo | Qty | Selection | Aliexpress link | Unit price (USD) | Alibaba link | Unit price (USD) | Total (USD) |
 |---|---|---|---|---|---|---|---|
-| STS3215 | 6 | 7.4V TTL version for leader servos. Select ST-3215-C044 (7.4V). | [Aliexpress](https://www.aliexpress.us/item/3256811860804361.html) | $32.8 | [Alibaba](https://www.alibaba.com/product-detail/Top-Seller-Low-Cost-Feetech-STS3215_1600999461525.html) | $13.89 | $83.34 |
+| STS3215 | 6 | 7.4V TTL version for leader servos. Select ST-3215-C066 (7.4V). | [Aliexpress](https://www.aliexpress.us/item/3256811860804361.html) | $32.8 | [Alibaba](https://www.alibaba.com/product-detail/Feetech-SO-ARM101-LeRobot-Open-Source_1601636174153.html) | $6.74 | $40.44 |
 | STS3215 | 2 | 12V TTL version for follower joints 5 and 6. Select ST-3215-C049 (12V30KG). | [Aliexpress](https://www.aliexpress.us/item/3256811832699316.html) | $55.8 for 2pcs | [Alibaba](https://www.alibaba.com/product-detail/6pcs-12V-30KG-1-345-STS3215_1601900233170.html) | $14.70 | $29.40 |
 | STS3235 | 2 | 12V TTL version for follower joints 1 and 4. | [Aliexpress](https://www.aliexpress.us/item/3256810213842277.html) | $63 | [Alibaba](https://www.alibaba.com/product-detail/FEETECH-STS3235-12V-30KG-TTL-Dual_1601910640629.html) | $40.79 | $81.58 |
 | STS3250 | 2 | 12V TTL version for follower joints 2 and 3. | [Aliexpress](https://www.aliexpress.us/item/3256811995148799.html) | $126.4 for 2pcs | [Alibaba](https://www.alibaba.com/product-detail/Feetech-STS3250-12V-50kg-Servo-High_1601711893549.html) | $44.65 | $89.30 |
-| **Total** | | | | | | | **$283.62** |
+| **Total** | | | | | | | **$240.72** |
 
 - **Follower, 12V.** STS3250 is a 50 kg·cm brushless servo at 75 RPM. It drives the two joints that carry the most load.
   STS3235 is a 30 kg·cm servo with lower backlash than the STS3215.
-- **Leader, 5V.** The leader servos are only read, never loaded. You can use a passive STS3215 (ST-3215-C066) without motor and gearbox **only** for leader arm.
+- **Leader, 5V.** The leader servos are only read, never loaded. You can use a passive ST-3215-C066 without motor and gearbox **only** for leader arm.
 - Servo horns and the M3 × 6 horn screws come with the servos.
 
 ## Electronics
