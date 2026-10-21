@@ -9,17 +9,17 @@ Printed parts are listed separately in [printing.md](printing.md).
 
 ## Estimated kit cost
 
-**One leader + one follower: $383 in components, or $444 including printing material.**
+**One leader + one follower: $383 in components, or $417 including printing material.**
 
 | Category | Cost of quantities used (USD) | Buy full packs / spools (USD) |
 |---|---:|---:|
 | Servos (12 pcs) | $283.62 | $283.62 |
 | Electronics, camera and power supplies | $50.50 | $50.50 |
 | Bearings, steel guide rods and table clamps | $37.76 | $49.70 |
-| Fasteners | $11.21 | $32.90 |
-| **Components subtotal** | **$383.09** | **$416.70** |
-| Printing material: 0.6 kg PET-CF17 + 0.6 kg PETG | $39.59 | $66.0 |
-| **Total with printing material** | **$443.68** | **$503.7** |
+| Fasteners | $11.24 | $28.60 |
+| **Components subtotal** | **$383.12** | **$411.72** |
+| Printing material: 0.4 kg PET-CF17 + 0.75 kg PETG | $33.75 | $66.0 |
+| **Total with printing material** | **$416.87** | **$477.72** |
 
 The **Total (USD)** column is the cost of the quantity needed for one kit,
 using the reference offer behind each existing line total (not the sum of supplier offers).
@@ -29,7 +29,7 @@ They are not new supplier quotes: confirm the selected variants, minimum order
 quantities and prices before ordering. Shipping, taxes, tools, a computer, a printer,
 electricity and assembly labour are excluded.
 
-The full-pack column includes unused spares, 1 kg PET-CF17 spool and
+The full-pack column includes unused spares, 0.5 kg PET-CF17 spool and
 1 kg PETG spool. Printing quantities are budget allowances; re-slice the supplied
 3MF projects for your settings. Rod costs use steel; carbon tubes are an alternative.
 
@@ -65,7 +65,7 @@ Totals: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V.
 
 | Item | Qty | Notes | Buy US | Unit cost (US) | Buy US | Unit cost (US) | Buy EU | Unit cost (EU) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Waveshare Bus Servo Adapter | 2 | Leader controller | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Applicable-Integrate/dp/B0CJ6TP3TP/) | $13.00 | [Aliexpress](https://www.aliexpress.us/item/3256810343532716.html) | $7.40 | [Amazon EU](https://www.amazon.fr/-/en/Serial-Integrates-Control-Circuit-Support/dp/B0CJBKQ8LJ/) | €11.90 | $14.80 |
+| Waveshare Bus Servo Adapter | 2 | Servo controller | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Applicable-Integrate/dp/B0CJ6TP3TP/) | $13.00 | [Aliexpress](https://www.aliexpress.us/item/3256810343532716.html) | $7.40 | [Amazon EU](https://www.amazon.fr/-/en/Serial-Integrates-Control-Circuit-Support/dp/B0CJBKQ8LJ/) | €11.90 | $14.80 |
 | Power supply 12V DC (12V 5A power supply 5.5 2.1mm) | 1 | Follower. 60W / 5A or more recommended. The arm peaked at 3.3A under a 300g load. Match the Adapter's connector (5.5x2.1mm). | [Amazon](https://www.amazon.com/Power-Supply-Adapter-5-5x2-1-2-5mm/dp/B0C3CJF313/) | $10.00 | [Aliexpress](https://www.aliexpress.us/item/3256812113231032.html) | $6.60 | [Amazon EU](https://www.amazon.fr/-/en/zstg-Universal-Power-Supply-Connector/dp/B0GTLSRM91/) | €12.00 | $6.60 |
 | Power supply 5V DC (5V 2A power supply 5.5 2.1mm) | 1 | Leader. Match the Adapter's connector (5.5x2.1mm). | [Amazon](https://www.amazon.com/MTDZKJG-Adapter-100V-240V-Transformer-Security/dp/B0BZP65GRW/) | $6.20 | [Aliexpress](https://www.aliexpress.us/item/3256812479558626.html) | $4.10 | [Amazon EU](https://www.amazon.fr/5V-2A-Supply-DC-Adapter/dp/B0GDXFRYJS/) | €11.00 | $4.10 |
 | USB-C cable, 1.5 m (USB A to USB C data cable 1.5m) | 2 | One per controller. Choose a data cable, not a charging-only cable. | [Amazon](https://www.amazon.com/Data-Cable-1-5ft-10Gbps-Transfer/dp/B0FMJTHRCM/) | $6.00 | [Aliexpress](https://www.aliexpress.us/item/3256812299430938.html) | $3.00 | [Amazon EU](https://www.amazon.fr/-/en/10Gbps-Transfer-Charging-Samsung-External/dp/B0DHZ1R8FQ/) | €7.00 | $6.00 |
@@ -91,15 +91,14 @@ Kit totals as packed in the assembly booklet.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | M2 × 6 socket head | DIN 912 | 28 | [Amazon](https://www.amazon.com/Socket-Stainless-Threaded-Furniture-Printing/dp/B0DKY8XHB1/) | $6.60 / 60 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 100 | [Amazon EU](https://www.amazon.fr/-/en/THFJWJ-M2-Allen-Cylinder-Screws/dp/B0FP8ZP1XT/) | €6.60 / 60 | $1.04 |
 | M2 × 8 socket head | DIN 912 | 12 | [Amazon](https://www.amazon.com/Socket-Stainless-Threaded-Furniture-Printing/dp/B0DKY7L8YJ/) | $6.60 / 50 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $4.10 / 100 | [Amazon EU](https://www.amazon.fr/-/en/THFJWJ-M2-Allen-Cylinder-Screws/dp/B0FP8ZKVDN/) | €7.00 / 60 | $0.49 |
-| M3 × 10 countersunk | DIN 7991 | 60 | [Amazon](https://www.amazon.com/M3-0-5-Socket-Screws-Alloy-Threaded/dp/B08HNF3J3D/) | $9.00 / 100 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 50 | [Amazon EU](https://www.amazon.fr/-/en/Mbsomnus-Countersunk-Stainless-Mechanical-Furniture/dp/B0DY12R93P/) | €8.00 / 60 | $4.44 |
+| M3 × 10 countersunk | DIN 7991 | 62 | [Amazon](https://www.amazon.com/M3-0-5-Socket-Screws-Alloy-Threaded/dp/B08HNF3J3D/) | $9.00 / 100 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 50 | [Amazon EU](https://www.amazon.fr/-/en/Mbsomnus-Countersunk-Stainless-Mechanical-Furniture/dp/B0DY12R93P/) | €8.00 / 60 | $4.59 |
 | M3 × 16 countersunk | DIN 7991 | 36 | [Amazon](https://www.amazon.com/Skweawert-40-Pcs-M3x16mm-countersunk/dp/B0D7MY32JZ/) | $6.20 / 40 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $4.10 / 50 | [Amazon EU](https://www.amazon.fr/-/en/Mbsomnus-Countersunk-Stainless-Mechanical-Furniture/dp/B0DY138MGY/) | €8.00 / 60 | $2.95 |
-| M4 × 8 countersunk | DIN 7991 | 2 | [Amazon](https://www.amazon.com/100Pcs-M4x8mm-Stainless-Socket-Countersunk/dp/B0FPG3MYZY/) | $6.00 / 100 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $4.30 / 50 | [Amazon EU](https://www.amazon.fr/-/en/DTGN-M4-0-7x8mm-Screws-Stainless-Countersunk/dp/B0CQ1M4457/) | €6.70 / 100 | $0.12 |
 | M3 × 4 set screw | DIN 913 | 4 | [Amazon](https://www.amazon.com/Generic-Bathroom-Fixtures-Furniture-Project/dp/B0H8DPZJPQ/) | $4.60 / 60 | [Aliexpress](https://www.aliexpress.us/item/3256805653005840.html) | $2.10 / 10 | [Amazon EU](https://www.amazon.fr/-/en/MIETONG-Hex-Socket-Grub-Screws/dp/B0FSKLJR93/) | €6.00 / 20 | $0.31 |
 | M2 hex nut | DIN 934 | 12 | [Amazon](https://www.amazon.com/1-10Pcs-M1-M20-Stainless-Steel-Loose/dp/B0GVMQ3VD5/) | $3.50 / 100 | [Aliexpress](https://www.aliexpress.us/item/3256812621986317.html) | $4.10 / 100 | [Amazon EU](https://www.amazon.fr/-/en/PRORAJE-Stainless-Steel-Hexagonal-Diameter/dp/B0GVC5QKH9/) | €6.00 / 20 | $0.42 |
 | M3 hex nut | DIN 934 | 36 | [Amazon](https://www.amazon.com/FOCMKEAS-Stainless-Hexagon-Fasteners-Hardware/dp/B0CR7WL4D6/) | $3.70 / 50 | [Aliexpress](https://www.aliexpress.us/item/3256812621986317.html) | $4.00 / 100 | [Amazon EU](https://www.amazon.fr/-/en/PRORAJE-Stainless-Steel-Hexagonal-Diameter/dp/B0GVC7PD4Q/) | €6.30 / 50 | $1.44 |
 | M3 × 6 Phillips-head screw | from servo kit | 16 | Included with the servos. | — | — | — | — | — | — |
 | Self-tapping screw 2 × 6 | from servo kit | 20 | Included with the servos. | — | — | — | — | — | — |
-| **Total** | | | | | | | | | **$11.21** |
+| **Total** | | | | | | | | | **$11.24** |
 
 Black fasteners match the look of the renders but are not required.
 
@@ -107,9 +106,9 @@ Black fasteners match the look of the renders but are not required.
 
 | Material | Use | Purchase link | Price / budget (USD) | Total (USD) |
 |---|---|---|---|---:|
-| Fiberon PET-CF17 | Tested material for the arm links and servo holders | [Polymaker](https://shop.polymaker.com/products/fiberon-pet-cf17) | $44.99 / 1 kg | $26.99 (0.6 kg) |
-| PETG or PET-CF | Gripper clamps, covers, leader handle and trigger | [Amazon](https://www.amazon.com/Bambu-Printer-Filament-1-75mm-Spool/dp/B0GS568LQ1/) | PETG: $21.00 / 1 kg | $12.60 (0.6 kg) |
-| **Total** | | | | **$39.59** |
+| Fiberon PET-CF17 | Tested material for the arm links and servo holders | [Polymaker](https://shop.polymaker.com/products/fiberon-pet-cf17) | $44.99 / 1 kg | $18.00 (0.4 kg) |
+| PETG or PET-CF | Gripper clamps, covers, leader handle and trigger | [Amazon](https://www.amazon.com/Bambu-Printer-Filament-1-75mm-Spool/dp/B0GS568LQ1/) | PETG: $21.00 / 1 kg | $15.75 (0.75 kg) |
+| **Total** | | | | **$33.75** |
 
 Use the [printing guide](printing.md) and re-slice the supplied 3MF projects to determine
 the filament quantity for your printer and settings.
