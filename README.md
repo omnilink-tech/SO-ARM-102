@@ -20,7 +20,7 @@ designed by [Robonine](https://robonine.com) as a stiffer, faster successor to t
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
 
-**DIY budget: ~$383 for components, or ~$417 including printing material.**
+**DIY budget: ~$340 for components, or ~$374 including printing material.**
 [BOM summary](#bill-of-materials) · [Itemised costs and purchase links](docs/bom.md#estimated-kit-cost)
 
 > Rather not source the parts and print them yourself? **[Buy the SO-ARM 102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
@@ -105,8 +105,8 @@ The supplied 3MF plate layouts use a 256 × 256 mm bed.
 ### 2. Buy the hardware
 
 Source the components from the [BOM summary](#bill-of-materials) and
-[full BOM with purchase links](docs/bom.md). Budget **$383.12** for components,
-or **$416.87** including printing material, before shipping and taxes.
+[full BOM with purchase links](docs/bom.md). Budget **$340.22** for components,
+or **$373.97** including printing material, before shipping and taxes.
 
 | Arm | Servos | Controller | Power |
 |---|---|---|---|
@@ -136,7 +136,7 @@ Quantities and reference costs for **one leader + one follower**:
 
 | Category / purchase links | Kit contents | Total (USD) |
 |---|---|---:|
-| [Servos](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $283.62 |
+| [Servos](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $240.72 |
 | [Electronics](docs/bom.md#electronics) | 2 controllers, 2 power supplies, 2 USB cables, 1 wrist camera | $50.50 |
 | [Mechanical parts](docs/bom.md#mechanical-parts) | 4 bearings, 2 steel guide rods, 4 table clamps | $37.76 |
 | [Fasteners](docs/bom.md#fasteners) | Screws and nuts; specified servo-kit screws included | $11.24 |
@@ -144,7 +144,7 @@ Quantities and reference costs for **one leader + one follower**:
 | [Printing material](docs/bom.md#printing-materials) | 0.4 kg PET-CF17 + 0.75 kg PETG allowance | $33.75 |
 | **Total with printing material** | | **$416.87** |
 
-Buying the example full packs and filament spools from scratch costs about **$478**,
+Buying the example full packs and filament spools from scratch costs about **$435**,
 including unused spares. These are reference estimates, not new supplier quotes.
 Shipping, taxes, tools, a computer, a printer, electricity and assembly labour are excluded.
 Confirm supplier prices, variants and minimum order quantities before ordering;
