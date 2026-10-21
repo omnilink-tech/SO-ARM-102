@@ -105,6 +105,7 @@ Quantities are for one complete kit: one follower and one leader.
 | RB9.01.062.025 | Clamp (D6.1) | 2 |
 | RB9.01.062.030 | Gear rack | 2 |
 | RB9.01.062.040 | Gear for gripper | 1 |
+| RB9.01.062.050 | Washer | 2 |
 | RB9.01.062.075 | Camera holder | 1 |
 | RB9.01.062.090 | Camera spacer | 1 |
 | RB9.01.062.100 | Nail | 2 |
